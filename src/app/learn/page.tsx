@@ -21,11 +21,14 @@ export default function LearnPage() {
   const {
     currentTierIndex,
     currentSectionIndex,
+    currentScenarioIndex,
     lives,
     completedScenarios,
     submitAnswer,
     getCurrentScenario,
     isTierUnlocked,
+    goToPreviousScenario,
+    goToNextScenario,
   } = useGameStore();
 
   const { t } = useTranslation();
@@ -199,13 +202,37 @@ export default function LearnPage() {
               </button>
             </motion.div>
           ) : scenario ? (
-            <AnimatePresence mode="wait">
-              <ScenarioCard
-                key={scenario.id}
-                scenario={scenario}
-                onComplete={handleComplete}
-              />
-            </AnimatePresence>
+            <div style={{ width: "100%", maxWidth: "800px" }}>
+              <div className="scenario-nav-bar">
+                <button 
+                  onClick={goToPreviousScenario} 
+                  disabled={currentTierIndex === 0 && currentSectionIndex === 0 && currentScenarioIndex === 0}
+                  className="nav-btn"
+                >
+                  ← {t("nav.previous", undefined, "Anterior")}
+                </button>
+                <span className="nav-counter">
+                  Escenari {currentScenarioIndex + 1}
+                </span>
+                <button 
+                  onClick={goToNextScenario}
+                  disabled={!completedScenarios.includes(scenario.id)}
+                  className="nav-btn"
+                >
+                  {t("nav.next", undefined, "Següent")} →
+                </button>
+              </div>
+              <AnimatePresence mode="wait">
+                <ScenarioCard
+                  key={scenario.id}
+                  scenario={scenario}
+                  onComplete={(isCorrect) => {
+                    const xp = isCorrect ? scenario.xpReward : 0;
+                    submitAnswer(isCorrect, xp);
+                  }}
+                />
+              </AnimatePresence>
+            </div>
           ) : (
             <motion.div
               className="learn-empty-state"

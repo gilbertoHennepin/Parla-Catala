@@ -48,6 +48,10 @@ export interface GameActions {
   isTierUnlocked: (tierIndex: number) => boolean;
   /** Navigate to a specific scenario by its ID */
   goToScenario: (scenarioId: string) => void;
+  /** Navigate to the previous scenario in the curriculum */
+  goToPreviousScenario: () => void;
+  /** Navigate to the next scenario (only if current is completed) */
+  goToNextScenario: () => void;
   /** Reset lives to full */
   resetLives: () => void;
   /** Mark onboarding as complete */
@@ -184,6 +188,55 @@ export const useGameStore = create<GameState & GameActions>()(
             }
           }
         }
+      },
+
+      goToPreviousScenario: () => {
+        const state = get();
+        let { currentTierIndex, currentSectionIndex, currentScenarioIndex } = state;
+
+        if (currentScenarioIndex > 0) {
+          currentScenarioIndex--;
+        } else if (currentSectionIndex > 0) {
+          currentSectionIndex--;
+          currentScenarioIndex = curriculum[currentTierIndex].sections[currentSectionIndex].scenarios.length - 1;
+        } else if (currentTierIndex > 0) {
+          currentTierIndex--;
+          currentSectionIndex = curriculum[currentTierIndex].sections.length - 1;
+          currentScenarioIndex = curriculum[currentTierIndex].sections[currentSectionIndex].scenarios.length - 1;
+        } else {
+          return; // Already at the very first scenario
+        }
+
+        set({ currentTierIndex, currentSectionIndex, currentScenarioIndex });
+      },
+
+      goToNextScenario: () => {
+        const state = get();
+        let { currentTierIndex, currentSectionIndex, currentScenarioIndex } = state;
+
+        // Check if the current scenario is completed
+        const scenario = curriculum[currentTierIndex]?.sections[currentSectionIndex]?.scenarios[currentScenarioIndex];
+        if (!scenario || !state.completedScenarios.includes(scenario.id)) {
+          return; // Can't skip ahead if not completed
+        }
+
+        const tier = curriculum[currentTierIndex];
+        const section = tier?.sections[currentSectionIndex];
+
+        if (currentScenarioIndex < (section?.scenarios.length ?? 0) - 1) {
+          currentScenarioIndex++;
+        } else if (currentSectionIndex < (tier?.sections.length ?? 0) - 1) {
+          currentSectionIndex++;
+          currentScenarioIndex = 0;
+        } else if (currentTierIndex < curriculum.length - 1) {
+          currentTierIndex++;
+          currentSectionIndex = 0;
+          currentScenarioIndex = 0;
+        } else {
+          return; // Already at the very last scenario
+        }
+
+        set({ currentTierIndex, currentSectionIndex, currentScenarioIndex });
       },
 
       resetLives: () => set({ lives: 5 }),

@@ -4,6 +4,8 @@ export const translations = {
   // Navigation & General
   "nav.title": { ca: "Parla Català", es: "Parla Català" },
   "nav.loading": { ca: "Carregant...", es: "Cargando..." },
+  "nav.previous": { ca: "Anterior", es: "Anterior" },
+  "nav.next": { ca: "Següent", es: "Siguiente" },
   
   // Landing Page
   "landing.badge": { ca: "🇦🇩 Espanyol → Català", es: "🇦🇩 Español → Catalán" },
