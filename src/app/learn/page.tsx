@@ -128,8 +128,8 @@ export default function LearnPage() {
                     {!unlocked && "🔒 "}
                     {tier.level}
                   </span>
-                  <p className="tier-title">{tier.title}</p>
-                  <p className="tier-description">{tier.description}</p>
+                  <p className="tier-title">{t(`tier.${tier.level.toLowerCase()}.title`, undefined, tier.title)}</p>
+                  <p className="tier-description">{t(`tier.${tier.level.toLowerCase()}.desc`, undefined, tier.description)}</p>
                   {tier.requiredXp > 0 && (
                     <p className="tier-xp-req">
                       {unlocked ? t("sidebar.unlocked") : t("sidebar.requires", { xp: tier.requiredXp })}
@@ -155,7 +155,7 @@ export default function LearnPage() {
                           <span className="section-icon">{section.icon}</span>
                           <div>
                             <span className="section-title">
-                              {section.title}
+                              {t(`section.${section.id}.title`, undefined, section.title)}
                             </span>
                             <span
                               style={{

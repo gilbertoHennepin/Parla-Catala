@@ -105,15 +105,43 @@ export const translations = {
   "hint.remaining": { ca: "({n} restants)", es: "({n} restantes)" },
   "hint.none": { ca: "Cap pista restant", es: "Sin pistas restantes" },
   "hint.title": { ca: "Pista {n}", es: "Pista {n}" },
+
+  // Curriculum Tiers & Sections
+  "tier.a1.title": { ca: "A1 — Fonaments", es: "A1 — Fundamentos" },
+  "tier.a1.desc": { ca: "Salutacions, demanar al cafè, i vocabulari essencial.", es: "Saludos, pedir en la cafetería y vocabulario esencial." },
+  "tier.a2.title": { ca: "A2 — Intermedi", es: "A2 — Intermedio" },
+  "tier.a2.desc": { ca: "Passat perifràstic, rutines diàries i pronoms febles.", es: "Pasado perifrástico, rutinas diarias y pronombres débiles." },
+  "tier.b1.title": { ca: "B1 — Avançat", es: "B1 — Avanzado" },
+  "tier.b1.desc": { ca: "Contextos metges, vocabulari emocional i condicional.", es: "Contextos médicos, vocabulario emocional y condicional." },
+
+  "section.a1-introductions.title": { ca: "Presentacions", es: "Presentaciones" },
+  "section.a1-introductions.desc": { ca: "Coneix els personatges i aprèn salutacions.", es: "Conoce a los personajes y aprende saludos." },
+  "section.a1-cafe.title": { ca: "Al Cafè", es: "En la Cafetería" },
+  "section.a1-cafe.desc": { ca: "Demana menjar i begudes amb vocabulari propi.", es: "Pide comida y bebida con vocabulario propio." },
+  "section.a1-navigation.title": { ca: "Per la Ciutat", es: "Por la Ciudad" },
+  "section.a1-navigation.desc": { ca: "Demana indicacions per moure't per la ciutat.", es: "Pide indicaciones para moverte por la ciudad." },
+
+  "section.a2-diary.title": { ca: "Rutina Diària", es: "Rutina Diaria" },
+  "section.a2-diary.desc": { ca: "Explica què vas fer ahir amb el passat perifràstic.", es: "Explica qué hiciste ayer con el pasado perifrástico." },
+  "section.a2-shopping.title": { ca: "De Compres", es: "De Compras" },
+  "section.a2-shopping.desc": { ca: "Vocabulari de roba i interaccions a botigues.", es: "Vocabulario de ropa e interacciones en tiendas." },
+  "section.a2-pronouns.title": { ca: "Pronoms Febles", es: "Pronombres Débiles" },
+  "section.a2-pronouns.desc": { ca: "Domina l'ús dels pronoms 'en' i 'hi'.", es: "Domina el uso de los pronombres 'en' e 'hi'." },
+
+  "section.b1-medical.title": { ca: "Al Metge", es: "En el Médico" },
+  "section.b1-medical.desc": { ca: "Simula una visita mèdica i descriu símptomes.", es: "Simula una visita médica y describe síntomas." },
+  "section.b1-emotions.title": { ca: "Emocions", es: "Emociones" },
+  "section.b1-emotions.desc": { ca: "Expressa sentiments complexos i empatia.", es: "Expresa sentimientos complejos y empatía." },
 } as const;
 
-export type TranslationKey = keyof typeof translations;
+export type TranslationKey = keyof typeof translations | string;
 
 export function useTranslation() {
   const { uiLanguage } = useGameStore();
 
-  const t = (key: TranslationKey, variables?: Record<string, string | number>) => {
-    let text: string = translations[key]?.[uiLanguage] || key;
+  const t = (key: TranslationKey, variables?: Record<string, string | number>, fallback?: string) => {
+    const dict = translations as Record<string, { ca: string; es: string }>;
+    let text: string = dict[key]?.[uiLanguage] || fallback || key;
     
     if (variables) {
       Object.entries(variables).forEach(([k, v]) => {
