@@ -26,7 +26,6 @@ export default function LearnPage() {
     submitAnswer,
     getCurrentScenario,
     isTierUnlocked,
-    goToScenario,
   } = useGameStore();
 
   const { t } = useTranslation();

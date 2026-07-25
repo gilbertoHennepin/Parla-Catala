@@ -113,7 +113,7 @@ export function useTranslation() {
   const { uiLanguage } = useGameStore();
 
   const t = (key: TranslationKey, variables?: Record<string, string | number>) => {
-    let text = translations[key]?.[uiLanguage] || key;
+    let text: string = translations[key]?.[uiLanguage] || key;
     
     if (variables) {
       Object.entries(variables).forEach(([k, v]) => {

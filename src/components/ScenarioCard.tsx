@@ -8,7 +8,7 @@
 
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import type { Scenario, ScenarioType } from "@/data/curriculum";
 import { useTranslation } from "@/lib/i18n";
@@ -29,12 +29,9 @@ export default function ScenarioCard({
   
   // Allow user to toggle between speaking and writing practice.
   // Defaults to the scenario's original intended type from the curriculum.
+  // We don't need a useEffect to reset this because the parent sets key={scenario.id}
+  // which forces a full remount and resets the state automatically.
   const [activeMode, setActiveMode] = useState<ScenarioType>(scenario.type);
-
-  // Reset the mode toggle if the scenario changes
-  useEffect(() => {
-    setActiveMode(scenario.type);
-  }, [scenario.id, scenario.type]);
 
   return (
     <motion.div
