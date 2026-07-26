@@ -116,12 +116,16 @@ export const translations = {
   "tier.b1.title": { ca: "B1 — Avançat", es: "B1 — Avanzado" },
   "tier.b1.desc": { ca: "Contextos metges, vocabulari emocional i condicional.", es: "Contextos médicos, vocabulario emocional y condicional." },
 
-  "section.a1-introductions.title": { ca: "Presentacions", es: "Presentaciones" },
-  "section.a1-introductions.desc": { ca: "Coneix els personatges i aprèn salutacions.", es: "Conoce a los personajes y aprende saludos." },
-  "section.a1-cafe.title": { ca: "Al Cafè", es: "En la Cafetería" },
-  "section.a1-cafe.desc": { ca: "Demana menjar i begudes amb vocabulari propi.", es: "Pide comida y bebida con vocabulario propio." },
-  "section.a1-navigation.title": { ca: "Per la Ciutat", es: "Por la Ciudad" },
-  "section.a1-navigation.desc": { ca: "Demana indicacions per moure't per la ciutat.", es: "Pide indicaciones para moverte por la ciudad." },
+  "section.a1-identity.title": { ca: "Identitat i Presentacions", es: "Identidad y Presentaciones" },
+  "section.a1-identity.desc": { ca: "Dades personals, salutacions i gentilicis.", es: "Datos personales, saludos y gentilicios." },
+  "section.a1-physicality.title": { ca: "Físic i Aparença", es: "Físico y Apariencia" },
+  "section.a1-physicality.desc": { ca: "Descripcions físiques, roba, colors i el cos.", es: "Descripciones físicas, ropa, colores y el cuerpo." },
+  "section.a1-orientation.title": { ca: "Orientació", es: "Orientación" },
+  "section.a1-orientation.desc": { ca: "Dir l'hora, les parts del dia i ciutat vs. camp.", es: "Decir la hora, las partes del día y ciudad vs. campo." },
+  "section.a1-professions.title": { ca: "Professions", es: "Profesiones" },
+  "section.a1-professions.desc": { ca: "L'estructura familiar i els oficis.", es: "La estructura familiar y los oficios." },
+  "section.a1-courtesies.title": { ca: "Cortesia", es: "Cortesía" },
+  "section.a1-courtesies.desc": { ca: "Formes de cortesia i estats d'ànim.", es: "Formas de cortesía y estados de ánimo." },
 
   "section.a2-diary.title": { ca: "Rutina Diària", es: "Rutina Diaria" },
   "section.a2-diary.desc": { ca: "Explica què vas fer ahir amb el passat perifràstic.", es: "Explica qué hiciste ayer con el pasado perifrástico." },
@@ -134,6 +138,45 @@ export const translations = {
   "section.b1-medical.desc": { ca: "Simula una visita mèdica i descriu símptomes.", es: "Simula una visita médica y describe síntomas." },
   "section.b1-emotions.title": { ca: "Emocions", es: "Emociones" },
   "section.b1-emotions.desc": { ca: "Expressa sentiments complexos i empatia.", es: "Expresa sentimientos complejos y empatía." },
+
+  // New Tiers & Sections (pom2.xml expansion)
+  "tier.b2.title": { ca: "B2 — Intermedi", es: "B2 — Intermedio" },
+  "tier.b2.desc": { ca: "Domina el registre formal, entorns acadèmics i laborals.", es: "Domina el registro formal, entornos académicos y laborales." },
+  "tier.c1.title": { ca: "C1 — Suficiència", es: "C1 — Suficiencia" },
+  "tier.c1.desc": { ca: "Textos argumentatius complexos i domini metalingüístic.", es: "Textos argumentativos complejos y dominio metalingüístico." },
+
+  "section.a2-housing.title": { ca: "Habitatge", es: "Vivienda" },
+  "section.a2-housing.desc": { ca: "Lloguer de pisos i falsos amics com 'les golfes'.", es: "Alquiler de pisos y falsos amigos como 'les golfes'." },
+  "section.a2-phone.title": { ca: "Telèfon i Hores", es: "Teléfono y Horas" },
+  "section.a2-phone.desc": { ca: "Converses per telèfon i el sistema de quarts.", es: "Conversaciones por teléfono y el sistema de cuartos." },
+  "section.b1-dining.title": { ca: "Al Restaurant", es: "En el Restaurante" },
+  "section.b1-dining.desc": { ca: "Evita la trampa lèxica de l'afamat.", es: "Evita la trampa léxica de 'afamat'." },
+  "section.b2-university.title": { ca: "Universitat", es: "Universidad" },
+  "section.b2-university.desc": { ca: "Interaccions formals utilitzant 'vostè'.", es: "Interacciones formales usando 'usted'." },
+  "section.b2-workplace.title": { ca: "Entorn Laboral", es: "Entorno Laboral" },
+  "section.b2-workplace.desc": { ca: "Entrevistes de feina i expressions professionals.", es: "Entrevistas de trabajo y expresiones profesionales." },
+  "section.c1-debate.title": { ca: "Debat", es: "Debate" },
+  "section.c1-debate.desc": { ca: "Argumentació avançada amb connectors complexos.", es: "Argumentación avanzada con conectores complejos." },
+
+  // Tabs
+  "tab.exercises": { ca: "Exercicis", es: "Ejercicios" },
+  "tab.vocabulary": { ca: "Vocabulari", es: "Vocabulario" },
+
+  // Vocabulary Panel
+  "vocab.search": { ca: "Cercar paraula...", es: "Buscar palabra..." },
+  "vocab.empty": { ca: "No hi ha vocabulari disponible per a aquest nivell.", es: "No hay vocabulario disponible para este nivel." },
+  "vocab.noResults": { ca: "No s'han trobat paraules.", es: "No se encontraron palabras." },
+  "vocab.header.es": { ca: "Espanyol", es: "Español" },
+  "vocab.header.ca": { ca: "Català", es: "Catalán" },
+  "vocab.cat.nouns": { ca: "Substantius", es: "Sustantivos" },
+  "vocab.cat.verbs": { ca: "Verbs", es: "Verbos" },
+  "vocab.cat.adjectives": { ca: "Adjectius", es: "Adjetivos" },
+  "vocab.cat.adverbs": { ca: "Adverbis", es: "Adverbios" },
+  "vocab.cat.pronouns": { ca: "Pronoms", es: "Pronombres" },
+  "vocab.cat.prepositions": { ca: "Preposicions", es: "Preposiciones" },
+  "vocab.cat.expressions": { ca: "Expressions", es: "Expresiones" },
+  "vocab.cat.false_friends": { ca: "Falsos amics", es: "Falsos Amigos" },
+  "vocab.listen": { ca: "Escolta la pronunciació", es: "Escuchar pronunciación" },
 } as const;
 
 export type TranslationKey = keyof typeof translations | string;

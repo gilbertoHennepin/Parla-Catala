@@ -166,9 +166,8 @@ export const useGameStore = create<GameState & GameActions>()(
       },
 
       isTierUnlocked: (tierIndex: number) => {
-        const tier = curriculum[tierIndex];
-        if (!tier) return false;
-        return get().xp >= tier.requiredXp;
+        // DEV: All tiers unlocked
+        return true;
       },
 
       goToScenario: (scenarioId: string) => {
