@@ -121,9 +121,8 @@ export default function LearnPage() {
             return (
               <div key={tier.level}>
                 <div
-                  className={`tier-card ${isActive ? "active" : ""} ${
-                    !unlocked ? "locked" : ""
-                  }`}
+                  className={`tier-card ${isActive ? "active" : ""} ${!unlocked ? "locked" : ""
+                    }`}
                   onClick={() => {
                     if (unlocked) {
                       setBrowseTier(tIdx);
@@ -154,9 +153,8 @@ export default function LearnPage() {
                       return (
                         <div
                           key={section.id}
-                          className={`section-item ${
-                            isSectionActive ? "active" : ""
-                          }`}
+                          className={`section-item ${isSectionActive ? "active" : ""
+                            }`}
                           onClick={() => setBrowseSection(sIdx)}
                         >
                           <span className="section-icon">{section.icon}</span>
@@ -247,8 +245,8 @@ export default function LearnPage() {
                 ) : scenario ? (
                   <div style={{ width: "100%" }}>
                     <div className="scenario-nav-bar">
-                      <button 
-                        onClick={goToPreviousScenario} 
+                      <button
+                        onClick={goToPreviousScenario}
                         disabled={currentTierIndex === 0 && currentSectionIndex === 0 && currentScenarioIndex === 0}
                         className="nav-btn"
                       >
@@ -257,7 +255,7 @@ export default function LearnPage() {
                       <span className="nav-counter">
                         Escenari {currentScenarioIndex + 1}
                       </span>
-                      <button 
+                      <button
                         onClick={goToNextScenario}
                         disabled={!completedScenarios.includes(scenario.id)}
                         className="nav-btn"

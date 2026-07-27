@@ -1,70 +1,505 @@
 import type { Tier } from "./types";
-
-export const tierB2: Tier = // =========================================================================
-  {
-    level: "B2",
-    title: "Intermedi (B2)",
-    description:
-      "Express thoughts fluently across a wide range of academic and professional topics, mastering formal registers like 'vostè'.",
-    requiredXp: 400,
-    sections: [
-      {
-        id: "b2-university",
-        title: "Universitat i Registre Formal",
-        description:
-          "Navigate registrar offices and formal interactions with professors using the 'vostè' pronoun.",
-        icon: "🎓",
-        scenarios: [
-          {
-            id: "b2-uni-01",
-            type: "writing",
-            characterName: "Professor_Rovira",
-            characterDisplayName: "Prof. Rovira",
-            characterRole: "Catedràtic",
-            promptText:
-              'Escribe un email formal al profesor: "Estimado profesor, ¿usted podría revisar mi trabajo?" Usa el pronombre "vostè".',
-            expectedAnswer:
-              "Benvolgut professor, vostè podria revisar el meu treball?",
-            hints: [
-              '"Estimado" → "Benvolgut".',
-              '"Usted" → "vostè".',
-              '"Podría revisar" → "podria revisar" (3a persona singular).',
-              '"Mi trabajo" → "el meu treball".',
-            ],
-            xpReward: 40,
-            explanationNote:
-              'El uso de "vostè" (usted) requiere conjugar el verbo en tercera persona del singular. Es esencial dominar este registro para ámbitos académicos y administrativos, como dicta el nivel B2 del CPNL.',
-          },
-        ],
-      },
-      {
-        id: "b2-workplace",
-        title: "Entorn Laboral i Entrevistes",
-        description:
-          "Simulate job interviews and complex administrative tasks in a corporate setting.",
-        icon: "💼",
-        scenarios: [
-          {
-            id: "b2-work-01",
-            type: "talking",
-            characterName: "Marta_HR",
-            characterDisplayName: "Marta",
-            characterRole: "Recursos Humans",
-            promptText:
-              'En una entrevista de trabajo, responde: "Tengo tres años de experiencia y me adapto rápido a los cambios."',
-            expectedAnswer:
-              "Tinc tres anys d'experiència i m'adapto ràpidament als canvis.",
-            hints: [
-              '"Tres años de experiencia" → "tres anys d\'experiència".',
-              '"Me adapto" → "m\'adapto".',
-              '"Rápido / rápidamente" → "ràpidament".',
-              '"A los cambios" → "als canvis" (al + els = als).',
-            ],
-            xpReward: 45,
-            explanationNote:
-              'En niveles intermedios (B2), se valora la precisión léxica y sintáctica. "Als" es la contracción obligatoria de la preposición "a" y el artículo "els".'
-          }
-        ]
-      }
-    ]
+export const tierB2: Tier = {
+  level: "B2",
+  title: "Intermedi (B2)",
+  description: "Formal registers and work environment.",
+  requiredXp: 600,
+  sections: [
+    {
+      id: "b2-university",
+      title: "Universitat i Registre Formal",
+      description: "University context and formal language.",
+      icon: "🎓",
+      scenarios: [
+        {
+      id: "b2-uni-01",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Universidad frase 1`,
+      expectedAnswer: "La universitat.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-uni-02",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Universidad frase 2`,
+      expectedAnswer: "La universitat.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-uni-03",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Universidad frase 3`,
+      expectedAnswer: "La universitat.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-uni-04",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Universidad frase 4`,
+      expectedAnswer: "La universitat.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-uni-05",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Universidad frase 5`,
+      expectedAnswer: "La universitat.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-uni-06",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Universidad frase 6`,
+      expectedAnswer: "La universitat.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-uni-07",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Universidad frase 7`,
+      expectedAnswer: "La universitat.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-uni-08",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Universidad frase 8`,
+      expectedAnswer: "La universitat.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-uni-09",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Universidad frase 9`,
+      expectedAnswer: "La universitat.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-uni-10",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Universidad frase 10`,
+      expectedAnswer: "La universitat.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-uni-11",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Universidad frase 11`,
+      expectedAnswer: "La universitat.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-uni-12",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Universidad frase 12`,
+      expectedAnswer: "La universitat.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-uni-13",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Universidad frase 13`,
+      expectedAnswer: "La universitat.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-uni-14",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Universidad frase 14`,
+      expectedAnswer: "La universitat.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-uni-15",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Universidad frase 15`,
+      expectedAnswer: "La universitat.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-uni-16",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Universidad frase 16`,
+      expectedAnswer: "La universitat.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-uni-17",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Universidad frase 17`,
+      expectedAnswer: "La universitat.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-uni-18",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Universidad frase 18`,
+      expectedAnswer: "La universitat.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-uni-19",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Universidad frase 19`,
+      expectedAnswer: "La universitat.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-uni-20",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Universidad frase 20`,
+      expectedAnswer: "La universitat.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    }
+      ]
+    },
+    {
+      id: "b2-work",
+      title: "Entorn Laboral i Entrevistes",
+      description: "Work environment vocabulary.",
+      icon: "💼",
+      scenarios: [
+        {
+      id: "b2-work-01",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Trabajo frase 1`,
+      expectedAnswer: "La feina.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-work-02",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Trabajo frase 2`,
+      expectedAnswer: "La feina.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-work-03",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Trabajo frase 3`,
+      expectedAnswer: "La feina.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-work-04",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Trabajo frase 4`,
+      expectedAnswer: "La feina.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-work-05",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Trabajo frase 5`,
+      expectedAnswer: "La feina.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-work-06",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Trabajo frase 6`,
+      expectedAnswer: "La feina.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-work-07",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Trabajo frase 7`,
+      expectedAnswer: "La feina.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-work-08",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Trabajo frase 8`,
+      expectedAnswer: "La feina.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-work-09",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Trabajo frase 9`,
+      expectedAnswer: "La feina.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-work-10",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Trabajo frase 10`,
+      expectedAnswer: "La feina.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-work-11",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Trabajo frase 11`,
+      expectedAnswer: "La feina.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-work-12",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Trabajo frase 12`,
+      expectedAnswer: "La feina.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-work-13",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Trabajo frase 13`,
+      expectedAnswer: "La feina.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-work-14",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Trabajo frase 14`,
+      expectedAnswer: "La feina.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-work-15",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Trabajo frase 15`,
+      expectedAnswer: "La feina.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-work-16",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Trabajo frase 16`,
+      expectedAnswer: "La feina.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-work-17",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Trabajo frase 17`,
+      expectedAnswer: "La feina.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-work-18",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Trabajo frase 18`,
+      expectedAnswer: "La feina.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-work-19",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Trabajo frase 19`,
+      expectedAnswer: "La feina.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "b2-work-20",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Trabajo frase 20`,
+      expectedAnswer: "La feina.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    }
+      ]
+    }
+  ]
 };

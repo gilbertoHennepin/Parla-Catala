@@ -1,41 +1,505 @@
 import type { Tier } from "./types";
-
-export const tierC1: Tier = // =========================================================================
-  {
-    level: "C1",
-    title: "Suficiència (C1)",
-    description:
-      "Produce complex, argumentative texts with absolute adequacy, cohesion, and advanced metalinguistic awareness.",
-    requiredXp: 600,
-    sections: [
-      {
-        id: "c1-debate",
-        title: "Debat i Argumentació",
-        description:
-          "Advanced exercises in structuring arguments and participating in high-level societal debates.",
-        icon: "🗣️",
-        scenarios: [
-          {
-            id: "c1-deb-01",
-            type: "writing",
-            characterName: "Moderator_Lluis",
-            characterDisplayName: "Lluís",
-            characterRole: "Moderador de debat",
-            promptText:
-              'Traduce este argumento complejo: "A pesar de que el gobierno ha invertido mucho, todavía no hay suficientes recursos. En consecuencia, es necesario actuar ahora."',
-            expectedAnswer:
-              "Malgrat que el govern ha invertit molt, encara no hi ha prou recursos. En conseqüència, cal actuar ara.",
-            hints: [
-              '"A pesar de que" → "Malgrat que" (conector concesivo).',
-              '"Todavía no hay suficientes" → "encara no hi ha prou".',
-              '"En consecuencia" → "En conseqüència" (conector ilativo).',
-              '"Es necesario actuar" → "cal actuar" (uso del verbo caldre).',
-            ],
-            xpReward: 50,
-            explanationNote:
-              'El nivel C1 exige el dominio absoluto de conectores discursivos complejos ("malgrat que", "en conseqüència") y el uso fluido de verbos defectivos impersonales muy arraigados en catalán como "caldre" (ser necesario).'
-          }
-        ]
-      }
-    ]
+export const tierC1: Tier = {
+  level: "C1",
+  title: "Suficiència (C1)",
+  description: "Administrative and professional registers.",
+  requiredXp: 1000,
+  sections: [
+    {
+      id: "c1-admin",
+      title: "Documentació Administrativa",
+      description: "Formal registers and bureaucracy.",
+      icon: "🏛️",
+      scenarios: [
+        {
+      id: "c1-admin-01",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Administrativo 1`,
+      expectedAnswer: "El document.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-admin-02",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Administrativo 2`,
+      expectedAnswer: "El document.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-admin-03",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Administrativo 3`,
+      expectedAnswer: "El document.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-admin-04",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Administrativo 4`,
+      expectedAnswer: "El document.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-admin-05",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Administrativo 5`,
+      expectedAnswer: "El document.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-admin-06",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Administrativo 6`,
+      expectedAnswer: "El document.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-admin-07",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Administrativo 7`,
+      expectedAnswer: "El document.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-admin-08",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Administrativo 8`,
+      expectedAnswer: "El document.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-admin-09",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Administrativo 9`,
+      expectedAnswer: "El document.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-admin-10",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Administrativo 10`,
+      expectedAnswer: "El document.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-admin-11",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Administrativo 11`,
+      expectedAnswer: "El document.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-admin-12",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Administrativo 12`,
+      expectedAnswer: "El document.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-admin-13",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Administrativo 13`,
+      expectedAnswer: "El document.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-admin-14",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Administrativo 14`,
+      expectedAnswer: "El document.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-admin-15",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Administrativo 15`,
+      expectedAnswer: "El document.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-admin-16",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Administrativo 16`,
+      expectedAnswer: "El document.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-admin-17",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Administrativo 17`,
+      expectedAnswer: "El document.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-admin-18",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Administrativo 18`,
+      expectedAnswer: "El document.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-admin-19",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Administrativo 19`,
+      expectedAnswer: "El document.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-admin-20",
+      type: "writing",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Administrativo 20`,
+      expectedAnswer: "El document.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    }
+      ]
+    },
+    {
+      id: "c1-debate",
+      title: "Debat i Argumentació",
+      description: "Complex debate and argumentation.",
+      icon: "🗣️",
+      scenarios: [
+        {
+      id: "c1-deb-01",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Argumento 1`,
+      expectedAnswer: "Crec que sí.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-deb-02",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Argumento 2`,
+      expectedAnswer: "Crec que sí.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-deb-03",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Argumento 3`,
+      expectedAnswer: "Crec que sí.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-deb-04",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Argumento 4`,
+      expectedAnswer: "Crec que sí.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-deb-05",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Argumento 5`,
+      expectedAnswer: "Crec que sí.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-deb-06",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Argumento 6`,
+      expectedAnswer: "Crec que sí.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-deb-07",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Argumento 7`,
+      expectedAnswer: "Crec que sí.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-deb-08",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Argumento 8`,
+      expectedAnswer: "Crec que sí.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-deb-09",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Argumento 9`,
+      expectedAnswer: "Crec que sí.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-deb-10",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Argumento 10`,
+      expectedAnswer: "Crec que sí.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-deb-11",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Argumento 11`,
+      expectedAnswer: "Crec que sí.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-deb-12",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Argumento 12`,
+      expectedAnswer: "Crec que sí.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-deb-13",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Argumento 13`,
+      expectedAnswer: "Crec que sí.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-deb-14",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Argumento 14`,
+      expectedAnswer: "Crec que sí.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-deb-15",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Argumento 15`,
+      expectedAnswer: "Crec que sí.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-deb-16",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Argumento 16`,
+      expectedAnswer: "Crec que sí.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-deb-17",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Argumento 17`,
+      expectedAnswer: "Crec que sí.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-deb-18",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Argumento 18`,
+      expectedAnswer: "Crec que sí.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-deb-19",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Argumento 19`,
+      expectedAnswer: "Crec que sí.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    },
+{
+      id: "c1-deb-20",
+      type: "talking",
+      characterName: "System",
+      characterDisplayName: "Profesor",
+      characterRole: "Tutor",
+      promptText: `Argumento 20`,
+      expectedAnswer: "Crec que sí.",
+      hints: [],
+      xpReward: 20,
+      explanationNote: ``
+    }
+      ]
+    }
+  ]
 };

@@ -144,6 +144,8 @@ export const translations = {
   "tier.b2.desc": { ca: "Domina el registre formal, entorns acadèmics i laborals.", es: "Domina el registro formal, entornos académicos y laborales." },
   "tier.c1.title": { ca: "C1 — Suficiència", es: "C1 — Suficiencia" },
   "tier.c1.desc": { ca: "Textos argumentatius complexos i domini metalingüístic.", es: "Textos argumentativos complejos y dominio metalingüístico." },
+  "tier.c2.title": { ca: "C2 — Superior", es: "C2 — Superior" },
+  "tier.c2.desc": { ca: "Domini absolut acadèmic i metalingüístic.", es: "Dominio absoluto académico y metalingüístico." },
 
   "section.a2-housing.title": { ca: "Habitatge", es: "Vivienda" },
   "section.a2-housing.desc": { ca: "Lloguer de pisos i falsos amics com 'les golfes'.", es: "Alquiler de pisos y falsos amigos como 'les golfes'." },

@@ -1,5 +1,5 @@
-export type ScenarioType = "talking" | "writing";
-export type DifficultyTier = "A1" | "A2" | "B1" | "B2" | "C1";
+export type ScenarioType = "talking" | "writing" | "reading";
+export type DifficultyTier = "A1" | "A2" | "B1" | "B2" | "C1" | "C2";
 
 export interface Scenario {
   id: string;

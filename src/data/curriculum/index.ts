@@ -4,15 +4,24 @@ import { tierA2 } from "./a2";
 import { tierB1 } from "./b1";
 import { tierB2 } from "./b2";
 import { tierC1 } from "./c1";
+import { extTierA1, extTierA2, extTierB1, extTierB2, extTierC1, extTierC2 } from "./database";
 
 export * from "./types";
 
+// Merge database extensions into existing tiers
+const mergedA1 = { ...tierA1, sections: [...tierA1.sections, ...extTierA1.sections] };
+const mergedA2 = { ...tierA2, sections: [...tierA2.sections, ...extTierA2.sections] };
+const mergedB1 = { ...tierB1, sections: [...tierB1.sections, ...extTierB1.sections] };
+const mergedB2 = { ...tierB2, sections: [...tierB2.sections, ...extTierB2.sections] };
+const mergedC1 = { ...tierC1, sections: [...tierC1.sections, ...extTierC1.sections] };
+
 export const curriculum: Tier[] = [
-  tierA1,
-  tierA2,
-  tierB1,
-  tierB2,
-  tierC1
+  mergedA1,
+  mergedA2,
+  mergedB1,
+  mergedB2,
+  mergedC1,
+  extTierC2
 ];
 
 /**
