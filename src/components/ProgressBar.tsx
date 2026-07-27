@@ -8,6 +8,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import DynamicIcon from "@/components/DynamicIcon";
 import { useGameStore } from "@/store/useGameStore";
 
 export default function ProgressBar() {
@@ -60,7 +61,7 @@ export default function ProgressBar() {
       {/* Streak */}
       {streakDays > 0 && (
         <div className="stat-badge streak-badge">
-          <span className="stat-icon">🔥</span>
+          <span className="stat-icon"><DynamicIcon name="Flame" size={18} color="var(--primary)" /></span>
           <div className="stat-info">
             <span className="stat-value">{streakDays}</span>
             <span className="stat-label">dies</span>

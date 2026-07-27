@@ -1,4 +1,7 @@
-/**
+const fs = require('fs');
+const path = require('path');
+
+const vocabContent = `/**
  * Vocabulary Reference Data
  *
  * Side-by-side Spanish ↔ Catalan word lists organized by
@@ -514,3 +517,6 @@ export const vocabulary: TierVocabulary[] = [
     ]
   }
 ];
+`;
+fs.writeFileSync(path.join(__dirname, '../src/data/vocabulary.ts'), vocabContent);
+console.log("Vocabulary rebuilt.");

@@ -48,6 +48,8 @@ export interface GameActions {
   isTierUnlocked: (tierIndex: number) => boolean;
   /** Navigate to a specific scenario by its ID */
   goToScenario: (scenarioId: string) => void;
+  /** Navigate directly to a specific section's first scenario */
+  goToSection: (tierIndex: number, sectionIndex: number) => void;
   /** Navigate to the previous scenario in the curriculum */
   goToPreviousScenario: () => void;
   /** Navigate to the next scenario (only if current is completed) */
@@ -187,6 +189,14 @@ export const useGameStore = create<GameState & GameActions>()(
             }
           }
         }
+      },
+
+      goToSection: (tierIndex: number, sectionIndex: number) => {
+        set({
+          currentTierIndex: tierIndex,
+          currentSectionIndex: sectionIndex,
+          currentScenarioIndex: 0,
+        });
       },
 
       goToPreviousScenario: () => {

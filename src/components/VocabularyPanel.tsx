@@ -11,6 +11,7 @@ import { useState, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { vocabulary, type WordCategory, type WordGroup } from "@/data/vocabulary";
 import { useTranslation } from "@/lib/i18n";
+import DynamicIcon from "@/components/DynamicIcon";
 
 /**
  * Speak a Catalan word/phrase using the browser's SpeechSynthesis API.
@@ -62,7 +63,9 @@ export default function VocabularyPanel({ tierLevel }: VocabularyPanelProps) {
   if (!tierVocab || tierVocab.groups.length === 0) {
     return (
       <div className="vocab-empty">
-        <span className="vocab-empty-icon">📚</span>
+        <span className="vocab-empty-icon">
+          <DynamicIcon name="Library" size={48} />
+        </span>
         <p>{t("vocab.empty", undefined, "No hay vocabulario disponible para este nivel todavía.")}</p>
       </div>
     );
@@ -84,7 +87,9 @@ export default function VocabularyPanel({ tierLevel }: VocabularyPanelProps) {
     <div className="vocab-panel">
       {/* Search bar */}
       <div className="vocab-search-wrapper">
-        <span className="vocab-search-icon">🔍</span>
+        <span className="vocab-search-icon">
+          <DynamicIcon name="Search" size={18} />
+        </span>
         <input
           type="text"
           className="vocab-search"
@@ -98,7 +103,7 @@ export default function VocabularyPanel({ tierLevel }: VocabularyPanelProps) {
             onClick={() => setSearchQuery("")}
             aria-label="Clear search"
           >
-            ✕
+            <DynamicIcon name="X" size={16} />
           </button>
         )}
       </div>
@@ -116,7 +121,9 @@ export default function VocabularyPanel({ tierLevel }: VocabularyPanelProps) {
               setSearchQuery("");
             }}
           >
-            <span className="vocab-cat-icon">{group.icon}</span>
+            <span className="vocab-cat-icon">
+              <DynamicIcon name={group.icon as any} size={16} />
+            </span>
             <span className="vocab-cat-label">
               {t(`vocab.cat.${group.category}`, undefined, group.label.es)}
             </span>
@@ -138,9 +145,9 @@ export default function VocabularyPanel({ tierLevel }: VocabularyPanelProps) {
           >
             {/* Table header */}
             <div className="vocab-row vocab-header">
-              <span className="vocab-col-es">🇪🇸 {t("vocab.header.es", undefined, "Español")}</span>
+              <span className="vocab-col-es">{t("vocab.header.es", undefined, "Español")}</span>
               <span className="vocab-col-arrow">→</span>
-              <span className="vocab-col-ca">🇦🇩 {t("vocab.header.ca", undefined, "Català")}</span>
+              <span className="vocab-col-ca">{t("vocab.header.ca", undefined, "Català")}</span>
               <span className="vocab-col-audio"></span>
             </div>
 
@@ -166,7 +173,7 @@ export default function VocabularyPanel({ tierLevel }: VocabularyPanelProps) {
                     aria-label={`Listen to "${word.ca}"`}
                     title={t("vocab.listen", undefined, "Escuchar pronunciación")}
                   >
-                    🔊
+                    <DynamicIcon name="Volume2" size={14} />
                   </button>
                   {word.note && (
                     <span className="vocab-note">{word.note}</span>

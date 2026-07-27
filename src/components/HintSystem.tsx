@@ -8,6 +8,7 @@
 "use client";
 
 import { useState } from "react";
+import DynamicIcon from "@/components/DynamicIcon";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "@/lib/i18n";
 
@@ -53,7 +54,7 @@ export default function HintSystem({ hints, onHintRevealed }: HintSystemProps) {
       {/* Reveal button */}
       {revealedCount < hints.length ? (
         <button className="hint-reveal-btn" onClick={revealNext} type="button">
-          <span className="hint-icon">💡</span>
+          <span className="hint-icon"><DynamicIcon name="Lightbulb" size={16} /></span>
           {revealedCount === 0
             ? t("hint.show")
             : t("hint.next", { cost: xpCost })}

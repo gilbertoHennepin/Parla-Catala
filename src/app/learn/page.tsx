@@ -16,6 +16,7 @@ import { useTranslation } from "@/lib/i18n";
 import ProgressBar from "@/components/ProgressBar";
 import ScenarioCard from "@/components/ScenarioCard";
 import LanguageToggle from "@/components/LanguageToggle";
+import DynamicIcon from "@/components/DynamicIcon";
 import VocabularyPanel from "@/components/VocabularyPanel";
 
 type ContentTab = "exercises" | "vocabulary";
@@ -101,7 +102,8 @@ export default function LearnPage() {
       <header className="learn-header">
         <div className="learn-header-inner">
           <Link href="/" className="learn-logo">
-            🇦🇩 <span>{t("nav.title")}</span>
+            <DynamicIcon name="Flag" size={24} />
+            <span>{t("nav.title")}</span>
           </Link>
           <div className="header-actions">
             <ProgressBar />
@@ -127,11 +129,12 @@ export default function LearnPage() {
                     if (unlocked) {
                       setBrowseTier(tIdx);
                       setBrowseSection(0);
+                      useGameStore.getState().goToSection(tIdx, 0);
                     }
                   }}
                 >
                   <span className={`tier-level tier-level-${tier.level}`}>
-                    {!unlocked && "🔒 "}
+                    {!unlocked && <DynamicIcon name="Lock" size={14} style={{ display: "inline-block", marginRight: "4px" }} />}
                     {tier.level}
                   </span>
                   <p className="tier-title">{t(`tier.${tier.level.toLowerCase()}.title`, undefined, tier.title)}</p>
@@ -153,11 +156,15 @@ export default function LearnPage() {
                       return (
                         <div
                           key={section.id}
-                          className={`section-item ${isSectionActive ? "active" : ""
-                            }`}
-                          onClick={() => setBrowseSection(sIdx)}
+                          className={`section-item ${isSectionActive ? "active" : ""}`}
+                          onClick={() => {
+                            setBrowseSection(sIdx);
+                            useGameStore.getState().goToSection(tIdx, sIdx);
+                          }}
                         >
-                          <span className="section-icon">{section.icon}</span>
+                          <span className="section-icon">
+                            <DynamicIcon name={section.icon} size={18} />
+                          </span>
                           <div>
                             <span className="section-title">
                               {t(`section.${section.id}.title`, undefined, section.title)}
@@ -190,14 +197,18 @@ export default function LearnPage() {
               className={`content-tab ${activeTab === "exercises" ? "active" : ""}`}
               onClick={() => setActiveTab("exercises")}
             >
-              <span className="content-tab-icon">🎯</span>
+              <span className="content-tab-icon">
+                <DynamicIcon name="Target" size={16} />
+              </span>
               {t("tab.exercises", undefined, "Ejercicios")}
             </button>
             <button
               className={`content-tab ${activeTab === "vocabulary" ? "active" : ""}`}
               onClick={() => setActiveTab("vocabulary")}
             >
-              <span className="content-tab-icon">📖</span>
+              <span className="content-tab-icon">
+                <DynamicIcon name="BookOpen" size={16} />
+              </span>
               {t("tab.vocabulary", undefined, "Vocabulario")}
             </button>
           </div>
@@ -229,7 +240,9 @@ export default function LearnPage() {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                   >
-                    <span className="empty-emoji">💔</span>
+                    <span className="empty-emoji">
+                      <DynamicIcon name="HeartCrack" size={48} />
+                    </span>
                     <h2 className="empty-title">{t("empty.lives.title")}</h2>
                     <p className="empty-subtitle">
                       {t("empty.lives.desc")}

@@ -10,6 +10,7 @@
 "use client";
 
 import { useState, useEffect, useRef, useCallback } from "react";
+import DynamicIcon from "@/components/DynamicIcon";
 import { motion, AnimatePresence } from "framer-motion";
 import type { Scenario } from "@/data/curriculum";
 import { useTranslation } from "@/lib/i18n";
@@ -256,7 +257,7 @@ export default function WritingMode({ scenario, onSubmit }: WritingModeProps) {
         >
           <div className="result-header">
             <span className="result-emoji">
-              {result?.correct ? "🎉" : "❌"}
+              {result?.correct ? <DynamicIcon name="PartyPopper" size={24} /> : <DynamicIcon name="XCircle" size={24} />}
             </span>
             <h3 className="result-title">
               {result?.correct ? t("result.good") : t("result.wrong")}
@@ -281,7 +282,7 @@ export default function WritingMode({ scenario, onSubmit }: WritingModeProps) {
 
           {scenario.explanationNote && (
             <div className="explanation-note">
-              <span className="note-icon">📚</span>
+              <span className="note-icon"><DynamicIcon name="BookOpen" size={16} /></span>
               <p>{scenario.explanationNote}</p>
             </div>
           )}

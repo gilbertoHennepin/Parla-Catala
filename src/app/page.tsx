@@ -12,38 +12,39 @@ import Link from "next/link";
 import Avatar from "@/components/Avatar";
 import { useTranslation } from "@/lib/i18n";
 import LanguageToggle from "@/components/LanguageToggle";
+import DynamicIcon from "@/components/DynamicIcon";
 
 export default function LandingPage() {
   const { t } = useTranslation();
 
   const features = [
     {
-      icon: "🎤",
+      icon: "Mic",
       title: t("feat.conversa.title"),
       description: t("feat.conversa.desc"),
     },
     {
-      icon: "✍️",
+      icon: "PenTool",
       title: t("feat.escritura.title"),
       description: t("feat.escritura.desc"),
     },
     {
-      icon: "👥",
+      icon: "Users",
       title: t("feat.avatars.title"),
       description: t("feat.avatars.desc"),
     },
     {
-      icon: "⚠️",
+      icon: "AlertTriangle",
       title: t("feat.falsos.title"),
       description: t("feat.falsos.desc"),
     },
     {
-      icon: "🏆",
+      icon: "Trophy",
       title: t("feat.gamificacio.title"),
       description: t("feat.gamificacio.desc"),
     },
     {
-      icon: "📚",
+      icon: "BookOpen",
       title: t("feat.ling.title"),
       description: t("feat.ling.desc"),
     },
@@ -150,16 +151,18 @@ export default function LandingPage() {
         </motion.h2>
 
         <div className="features-grid">
-          {features.map((feature, i) => (
+          {features.map((feature, idx) => (
             <motion.div
-              key={feature.title}
+              key={idx}
               className="feature-card"
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: i * 0.1, duration: 0.4 }}
+              transition={{ delay: idx * 0.1, duration: 0.4 }}
             >
-              <span className="feature-icon">{feature.icon}</span>
+              <span className="feature-icon">
+                <DynamicIcon name={feature.icon} size={32} />
+              </span>
               <h3>{feature.title}</h3>
               <p>{feature.description}</p>
             </motion.div>

@@ -9,7 +9,7 @@ export const tierA1: Tier = {
       id: "a1-identity",
       title: "Identitat i Presentacions",
       description: "Personal data, introductions, and demonyms.",
-      icon: "👋",
+      icon: "Hand",
       scenarios: [
         {
       id: "a1-ident-01",
@@ -257,7 +257,7 @@ export const tierA1: Tier = {
       id: "a1-physicality",
       title: "Físic i Aparença",
       description: "Physical descriptions, clothing, colors, and body parts.",
-      icon: "👁️",
+      icon: "Eye",
       scenarios: [
         {
       id: "a1-phys-01",
@@ -505,7 +505,7 @@ export const tierA1: Tier = {
       id: "a1-orientation",
       title: "Orientació Espacial i Temporal",
       description: "Telling time, parts of the day, city vs. countryside.",
-      icon: "🗺️",
+      icon: "Map",
       scenarios: [
         {
       id: "a1-orient-01",
@@ -753,7 +753,7 @@ export const tierA1: Tier = {
       id: "a1-professions",
       title: "Professions i Família",
       description: "Terms regarding the family structure, trades and professions.",
-      icon: "👨‍👩‍👧‍👦",
+      icon: "Users",
       scenarios: [
         {
       id: "a1-prof-01",
@@ -1001,7 +1001,7 @@ export const tierA1: Tier = {
       id: "a1-abstracts",
       title: "Estats Abstracts i Cortesia",
       description: "Forms of courtesy, and complex expressions detailing physical states.",
-      icon: "🤝",
+      icon: "Handshake",
       scenarios: [
         {
       id: "a1-abs-01",

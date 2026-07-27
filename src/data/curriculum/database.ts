@@ -10,7 +10,7 @@ export const extTierA1: Tier = {
       id: "a1-ext-identidad-y-cortes-a",
       title: "Identidad y Cortesía",
       description: "Practica avançada: Identidad y Cortesía",
-      icon: "🔥",
+      icon: "Hand",
       scenarios: [
         {
           id: "a1-ext-identidad-y-cortes-a-001",
@@ -258,7 +258,7 @@ export const extTierA1: Tier = {
       id: "a1-ext-la-familia-y-art-culos",
       title: "La Familia y Artículos",
       description: "Practica avançada: La Familia y Artículos",
-      icon: "🔥",
+      icon: "Users",
       scenarios: [
         {
           id: "a1-ext-la-familia-y-art-culos-021",
@@ -506,7 +506,7 @@ export const extTierA1: Tier = {
       id: "a1-ext-comida-y-bebida",
       title: "Comida y Bebida",
       description: "Practica avançada: Comida y Bebida",
-      icon: "🔥",
+      icon: "Utensils",
       scenarios: [
         {
           id: "a1-ext-comida-y-bebida-041",
@@ -754,7 +754,7 @@ export const extTierA1: Tier = {
       id: "a1-ext-orientaci-n-y-f-sico",
       title: "Orientación y Físico",
       description: "Practica avançada: Orientación y Físico",
-      icon: "🔥",
+      icon: "Map",
       scenarios: [
         {
           id: "a1-ext-orientaci-n-y-f-sico-061",
@@ -1011,7 +1011,7 @@ export const extTierA2: Tier = {
       id: "a2-ext-rutina-diaria-y-horas",
       title: "Rutina Diaria y Horas",
       description: "Practica avançada: Rutina Diaria y Horas",
-      icon: "🔥",
+      icon: "Clock",
       scenarios: [
         {
           id: "a2-ext-rutina-diaria-y-horas-081",
@@ -1259,7 +1259,7 @@ export const extTierA2: Tier = {
       id: "a2-ext-la-ciudad-y-el-campo",
       title: "La Ciudad y el Campo",
       description: "Practica avançada: La Ciudad y el Campo",
-      icon: "🔥",
+      icon: "Trees",
       scenarios: [
         {
           id: "a2-ext-la-ciudad-y-el-campo-101",
@@ -1507,7 +1507,7 @@ export const extTierA2: Tier = {
       id: "a2-ext-ser-estar-anar-venir",
       title: "Ser, Estar, Anar, Venir",
       description: "Practica avançada: Ser, Estar, Anar, Venir",
-      icon: "🔥",
+      icon: "ArrowRight",
       scenarios: [
         {
           id: "a2-ext-ser-estar-anar-venir-121",
@@ -1755,7 +1755,7 @@ export const extTierA2: Tier = {
       id: "a2-ext-planes-de-futuro",
       title: "Planes de Futuro",
       description: "Practica avançada: Planes de Futuro",
-      icon: "🔥",
+      icon: "Plane",
       scenarios: [
         {
           id: "a2-ext-planes-de-futuro-141",
@@ -2003,7 +2003,7 @@ export const extTierA2: Tier = {
       id: "a2-ext-de-compras-false-friends-",
       title: "De Compras (False Friends)",
       description: "Practica avançada: De Compras (False Friends)",
-      icon: "🔥",
+      icon: "ShoppingBag",
       scenarios: [
         {
           id: "a2-ext-de-compras-false-friends--161",
@@ -2260,7 +2260,7 @@ export const extTierB1: Tier = {
       id: "b1-ext-dudas-y-deseos-subjuntivo-",
       title: "Dudas y Deseos (Subjuntivo)",
       description: "Practica avançada: Dudas y Deseos (Subjuntivo)",
-      icon: "🔥",
+      icon: "Sparkles",
       scenarios: [
         {
           id: "b1-ext-dudas-y-deseos-subjuntivo--181",
@@ -2508,7 +2508,7 @@ export const extTierB1: Tier = {
       id: "b1-ext-obligaciones-y-necesidad",
       title: "Obligaciones y Necesidad",
       description: "Practica avançada: Obligaciones y Necesidad",
-      icon: "🔥",
+      icon: "Lock",
       scenarios: [
         {
           id: "b1-ext-obligaciones-y-necesidad-201",
@@ -2756,7 +2756,7 @@ export const extTierB1: Tier = {
       id: "b1-ext-en-el-m-dico",
       title: "En el Médico",
       description: "Practica avançada: En el Médico",
-      icon: "🔥",
+      icon: "Hospital",
       scenarios: [
         {
           id: "b1-ext-en-el-m-dico-221",
@@ -3004,7 +3004,7 @@ export const extTierB1: Tier = {
       id: "b1-ext-festividades-y-tradiciones",
       title: "Festividades y Tradiciones",
       description: "Practica avançada: Festividades y Tradiciones",
-      icon: "🔥",
+      icon: "PartyPopper",
       scenarios: [
         {
           id: "b1-ext-festividades-y-tradiciones-241",
@@ -3261,7 +3261,7 @@ export const extTierB2: Tier = {
       id: "b2-ext-pronombres-d-biles-mastery-",
       title: "Pronombres Débiles (Mastery)",
       description: "Practica avançada: Pronombres Débiles (Mastery)",
-      icon: "🔥",
+      icon: "Link",
       scenarios: [
         {
           id: "b2-ext-pronombres-d-biles-mastery--261",
@@ -3509,7 +3509,7 @@ export const extTierB2: Tier = {
       id: "b2-ext-pronombres-relativos",
       title: "Pronombres Relativos",
       description: "Practica avançada: Pronombres Relativos",
-      icon: "🔥",
+      icon: "Link",
       scenarios: [
         {
           id: "b2-ext-pronombres-relativos-281",
@@ -3757,7 +3757,7 @@ export const extTierB2: Tier = {
       id: "b2-ext-entorno-laboral-y-universidad",
       title: "Entorno Laboral y Universidad",
       description: "Practica avançada: Entorno Laboral y Universidad",
-      icon: "🔥",
+      icon: "Briefcase",
       scenarios: [
         {
           id: "b2-ext-entorno-laboral-y-universidad-301",
@@ -4005,7 +4005,7 @@ export const extTierB2: Tier = {
       id: "b2-ext-conectores-argumentativos",
       title: "Conectores Argumentativos",
       description: "Practica avançada: Conectores Argumentativos",
-      icon: "🔥",
+      icon: "BrainCircuit",
       scenarios: [
         {
           id: "b2-ext-conectores-argumentativos-321",
@@ -4262,7 +4262,7 @@ export const extTierC1: Tier = {
       id: "c1-ext-documentaci-n-administrativa",
       title: "Documentación Administrativa",
       description: "Practica avançada: Documentación Administrativa",
-      icon: "🔥",
+      icon: "FileText",
       scenarios: [
         {
           id: "c1-ext-documentaci-n-administrativa-341",
@@ -4510,7 +4510,7 @@ export const extTierC1: Tier = {
       id: "c1-ext-posesivos-formales",
       title: "Posesivos Formales",
       description: "Practica avançada: Posesivos Formales",
-      icon: "🔥",
+      icon: "Handshake",
       scenarios: [
         {
           id: "c1-ext-posesivos-formales-361",
@@ -4758,7 +4758,7 @@ export const extTierC1: Tier = {
       id: "c1-ext-subjuntivo-imperfecto",
       title: "Subjuntivo Imperfecto",
       description: "Practica avançada: Subjuntivo Imperfecto",
-      icon: "🔥",
+      icon: "Drama",
       scenarios: [
         {
           id: "c1-ext-subjuntivo-imperfecto-381",
@@ -5006,7 +5006,7 @@ export const extTierC1: Tier = {
       id: "c1-ext-r-gimen-verbal-crv-",
       title: "Régimen Verbal (CRV)",
       description: "Practica avançada: Régimen Verbal (CRV)",
-      icon: "🔥",
+      icon: "Wrench",
       scenarios: [
         {
           id: "c1-ext-r-gimen-verbal-crv--401",
@@ -5263,7 +5263,7 @@ export const extTierC2: Tier = {
       id: "c2-ext-defensa-de-tesis-y-debate-abstracto",
       title: "Defensa de Tesis y Debate Abstracto",
       description: "Practica avançada: Defensa de Tesis y Debate Abstracto",
-      icon: "🔥",
+      icon: "MessageSquare",
       scenarios: [
         {
           id: "c2-ext-defensa-de-tesis-y-debate-abstracto-421",
@@ -5511,7 +5511,7 @@ export const extTierC2: Tier = {
       id: "c2-ext-formatos-textuales-espec-ficos",
       title: "Formatos Textuales Específicos",
       description: "Practica avançada: Formatos Textuales Específicos",
-      icon: "🔥",
+      icon: "BookOpen",
       scenarios: [
         {
           id: "c2-ext-formatos-textuales-espec-ficos-441",
@@ -5759,7 +5759,7 @@ export const extTierC2: Tier = {
       id: "c2-ext-modismos-y-el-verb-fer",
       title: "Modismos y el Verb Fer",
       description: "Practica avançada: Modismos y el Verb Fer",
-      icon: "🔥",
+      icon: "Zap",
       scenarios: [
         {
           id: "c2-ext-modismos-y-el-verb-fer-461",
@@ -6007,7 +6007,7 @@ export const extTierC2: Tier = {
       id: "c2-ext-derivaci-n-l-xica",
       title: "Derivación Léxica",
       description: "Practica avançada: Derivación Léxica",
-      icon: "🔥",
+      icon: "Repeat",
       scenarios: [
         {
           id: "c2-ext-derivaci-n-l-xica-481",

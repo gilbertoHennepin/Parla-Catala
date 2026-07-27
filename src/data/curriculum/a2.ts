@@ -9,7 +9,7 @@ export const tierA2: Tier = {
       id: "a2-diary",
       title: "El Diari del Cap de Setmana",
       description: "Past events using the periphrastic past tense (vaig + infinitive).",
-      icon: "📓",
+      icon: "Book",
       scenarios: [
         {
       id: "a2-diary-01",
@@ -17,11 +17,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Fui." (Escenario A2 Diario 1)`,
-      expectedAnswer: "Vaig anar.",
-      hints: [],
+      promptText: `Traduce: "Ayer fui al mercado."`,
+      expectedAnswer: "Ahir vaig anar al mercat.",
+      hints: ["Passat perifràstic (vaig + infinitiu)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Oral past tense in Catalan.`
     },
 {
       id: "a2-diary-02",
@@ -29,11 +29,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Fui." (Escenario A2 Diario 2)`,
-      expectedAnswer: "Vaig anar.",
-      hints: [],
+      promptText: `Traduce: "Comí con mi amigo."`,
+      expectedAnswer: "Vaig menjar amb el meu amic.",
+      hints: ["Passat perifràstic (vaig + infinitiu)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Oral past tense in Catalan.`
     },
 {
       id: "a2-diary-03",
@@ -41,11 +41,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Fui." (Escenario A2 Diario 3)`,
-      expectedAnswer: "Vaig anar.",
-      hints: [],
+      promptText: `Traduce: "El sábado vimos una película."`,
+      expectedAnswer: "El dissabte vam veure una pel·lícula.",
+      hints: ["Passat perifràstic (vaig + infinitiu)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Oral past tense in Catalan.`
     },
 {
       id: "a2-diary-04",
@@ -53,11 +53,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Fui." (Escenario A2 Diario 4)`,
-      expectedAnswer: "Vaig anar.",
-      hints: [],
+      promptText: `Traduce: "¿Fuiste a Barcelona?"`,
+      expectedAnswer: "Vas anar a Barcelona?",
+      hints: ["Passat perifràstic (vaig + infinitiu)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Oral past tense in Catalan.`
     },
 {
       id: "a2-diary-05",
@@ -65,11 +65,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Fui." (Escenario A2 Diario 5)`,
-      expectedAnswer: "Vaig anar.",
-      hints: [],
+      promptText: `Traduce: "Ellos compraron fruta."`,
+      expectedAnswer: "Ells van comprar fruita.",
+      hints: ["Passat perifràstic (vaig + infinitiu)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Oral past tense in Catalan.`
     },
 {
       id: "a2-diary-06",
@@ -77,11 +77,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Fui." (Escenario A2 Diario 6)`,
-      expectedAnswer: "Vaig anar.",
-      hints: [],
+      promptText: `Traduce: "Cené en un restaurante."`,
+      expectedAnswer: "Vaig sopar en un restaurant.",
+      hints: ["Passat perifràstic (vaig + infinitiu)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Oral past tense in Catalan.`
     },
 {
       id: "a2-diary-07",
@@ -89,11 +89,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Fui." (Escenario A2 Diario 7)`,
-      expectedAnswer: "Vaig anar.",
-      hints: [],
+      promptText: `Traduce: "Salimos tarde."`,
+      expectedAnswer: "Vam sortir tard.",
+      hints: ["Passat perifràstic (vaig + infinitiu)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Oral past tense in Catalan.`
     },
 {
       id: "a2-diary-08",
@@ -101,11 +101,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Fui." (Escenario A2 Diario 8)`,
-      expectedAnswer: "Vaig anar.",
-      hints: [],
+      promptText: `Traduce: "No hice nada."`,
+      expectedAnswer: "No vaig fer res.",
+      hints: ["Passat perifràstic (vaig + infinitiu)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Oral past tense in Catalan.`
     },
 {
       id: "a2-diary-09",
@@ -113,11 +113,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Fui." (Escenario A2 Diario 9)`,
-      expectedAnswer: "Vaig anar.",
-      hints: [],
+      promptText: `Traduce: "Jugasteis muy bien."`,
+      expectedAnswer: "Vau jugar molt bé.",
+      hints: ["Passat perifràstic (vaig + infinitiu)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Oral past tense in Catalan.`
     },
 {
       id: "a2-diary-10",
@@ -125,11 +125,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Fui." (Escenario A2 Diario 10)`,
-      expectedAnswer: "Vaig anar.",
-      hints: [],
+      promptText: `Traduce: "Ella leyó el libro."`,
+      expectedAnswer: "Ella va llegir el llibre.",
+      hints: ["Passat perifràstic (vaig + infinitiu)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Oral past tense in Catalan.`
     },
 {
       id: "a2-diary-11",
@@ -137,11 +137,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Fui." (Escenario A2 Diario 11)`,
-      expectedAnswer: "Vaig anar.",
-      hints: [],
+      promptText: `Traduce: "Dormimos diez horas."`,
+      expectedAnswer: "Vam dormir deu hores.",
+      hints: ["Passat perifràstic (vaig + infinitiu)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Oral past tense in Catalan.`
     },
 {
       id: "a2-diary-12",
@@ -149,11 +149,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Fui." (Escenario A2 Diario 12)`,
-      expectedAnswer: "Vaig anar.",
-      hints: [],
+      promptText: `Traduce: "Me desperté a las ocho."`,
+      expectedAnswer: "Em vaig despertar a les vuit.",
+      hints: ["Passat perifràstic (vaig + infinitiu)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Oral past tense in Catalan.`
     },
 {
       id: "a2-diary-13",
@@ -161,11 +161,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Fui." (Escenario A2 Diario 13)`,
-      expectedAnswer: "Vaig anar.",
-      hints: [],
+      promptText: `Traduce: "Trabajó todo el día."`,
+      expectedAnswer: "Va treballar tot el dia.",
+      hints: ["Passat perifràstic (vaig + infinitiu)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Oral past tense in Catalan.`
     },
 {
       id: "a2-diary-14",
@@ -173,11 +173,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Fui." (Escenario A2 Diario 14)`,
-      expectedAnswer: "Vaig anar.",
-      hints: [],
+      promptText: `Traduce: "Escribí una carta."`,
+      expectedAnswer: "Vaig escriure una carta.",
+      hints: ["Passat perifràstic (vaig + infinitiu)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Oral past tense in Catalan.`
     },
 {
       id: "a2-diary-15",
@@ -185,11 +185,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Fui." (Escenario A2 Diario 15)`,
-      expectedAnswer: "Vaig anar.",
-      hints: [],
+      promptText: `Traduce: "Hicimos los deberes."`,
+      expectedAnswer: "Vam fer els deures.",
+      hints: ["Passat perifràstic (vaig + infinitiu)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Oral past tense in Catalan.`
     },
 {
       id: "a2-diary-16",
@@ -197,11 +197,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Fui." (Escenario A2 Diario 16)`,
-      expectedAnswer: "Vaig anar.",
-      hints: [],
+      promptText: `Traduce: "¿Bebiste agua?"`,
+      expectedAnswer: "Vas beure aigua?",
+      hints: ["Passat perifràstic (vaig + infinitiu)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Oral past tense in Catalan.`
     },
 {
       id: "a2-diary-17",
@@ -209,11 +209,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Fui." (Escenario A2 Diario 17)`,
-      expectedAnswer: "Vaig anar.",
-      hints: [],
+      promptText: `Traduce: "Se fueron pronto."`,
+      expectedAnswer: "Se'n van anar aviat.",
+      hints: ["Passat perifràstic (vaig + infinitiu)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Oral past tense in Catalan.`
     },
 {
       id: "a2-diary-18",
@@ -221,11 +221,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Fui." (Escenario A2 Diario 18)`,
-      expectedAnswer: "Vaig anar.",
-      hints: [],
+      promptText: `Traduce: "Encontré las llaves."`,
+      expectedAnswer: "Vaig trobar les claus.",
+      hints: ["Passat perifràstic (vaig + infinitiu)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Oral past tense in Catalan.`
     },
 {
       id: "a2-diary-19",
@@ -233,11 +233,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Fui." (Escenario A2 Diario 19)`,
-      expectedAnswer: "Vaig anar.",
-      hints: [],
+      promptText: `Traduce: "Llovió mucho."`,
+      expectedAnswer: "Va ploure molt.",
+      hints: ["Passat perifràstic (vaig + infinitiu)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Oral past tense in Catalan.`
     },
 {
       id: "a2-diary-20",
@@ -245,11 +245,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Fui." (Escenario A2 Diario 20)`,
-      expectedAnswer: "Vaig anar.",
-      hints: [],
+      promptText: `Traduce: "Cogimos el tren."`,
+      expectedAnswer: "Vam agafar el tren.",
+      hints: ["Passat perifràstic (vaig + infinitiu)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Oral past tense in Catalan.`
     }
       ]
     },
@@ -257,7 +257,7 @@ export const tierA2: Tier = {
       id: "a2-shopping",
       title: "Anem de Compres",
       description: "Dangerous false friends alert! Navigate 'roba' (clothes) and other traps.",
-      icon: "🛍️",
+      icon: "ShoppingBag",
       scenarios: [
         {
       id: "a2-shop-01",
@@ -265,11 +265,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Compré." (Escenario A2 Compres 1)`,
-      expectedAnswer: "Vaig comprar.",
-      hints: [],
+      promptText: `Traduce: "Compré ropa de verano."`,
+      expectedAnswer: "Vaig comprar roba d'estiu.",
+      hints: ["Cuidado con ampolla y roba."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `False friends are tricky here.`
     },
 {
       id: "a2-shop-02",
@@ -277,11 +277,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Compré." (Escenario A2 Compres 2)`,
-      expectedAnswer: "Vaig comprar.",
-      hints: [],
+      promptText: `Traduce: "Esa fresa es dulce."`,
+      expectedAnswer: "Aquella maduixa és dolça.",
+      hints: ["Cuidado con ampolla y roba."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `False friends are tricky here.`
     },
 {
       id: "a2-shop-03",
@@ -289,11 +289,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Compré." (Escenario A2 Compres 3)`,
-      expectedAnswer: "Vaig comprar.",
-      hints: [],
+      promptText: `Traduce: "Necesito manzanas."`,
+      expectedAnswer: "Necessito pomes.",
+      hints: ["Cuidado con ampolla y roba."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `False friends are tricky here.`
     },
 {
       id: "a2-shop-04",
@@ -301,11 +301,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Compré." (Escenario A2 Compres 4)`,
-      expectedAnswer: "Vaig comprar.",
-      hints: [],
+      promptText: `Traduce: "Quiero alquilar una casa."`,
+      expectedAnswer: "Vull llogar una casa.",
+      hints: ["Cuidado con ampolla y roba."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `False friends are tricky here.`
     },
 {
       id: "a2-shop-05",
@@ -313,11 +313,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Compré." (Escenario A2 Compres 5)`,
-      expectedAnswer: "Vaig comprar.",
-      hints: [],
+      promptText: `Traduce: "El queso es caro."`,
+      expectedAnswer: "El formatge és car.",
+      hints: ["Cuidado con ampolla y roba."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `False friends are tricky here.`
     },
 {
       id: "a2-shop-06",
@@ -325,11 +325,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Compré." (Escenario A2 Compres 6)`,
-      expectedAnswer: "Vaig comprar.",
-      hints: [],
+      promptText: `Traduce: "La bufanda roja."`,
+      expectedAnswer: "La bufanda vermella.",
+      hints: ["Cuidado con ampolla y roba."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `False friends are tricky here.`
     },
 {
       id: "a2-shop-07",
@@ -337,11 +337,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Compré." (Escenario A2 Compres 7)`,
-      expectedAnswer: "Vaig comprar.",
-      hints: [],
+      promptText: `Traduce: "Quiero pagar con tarjeta."`,
+      expectedAnswer: "Vull pagar amb targeta.",
+      hints: ["Cuidado con ampolla y roba."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `False friends are tricky here.`
     },
 {
       id: "a2-shop-08",
@@ -349,11 +349,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Compré." (Escenario A2 Compres 8)`,
-      expectedAnswer: "Vaig comprar.",
-      hints: [],
+      promptText: `Traduce: "¿Cuánto cuesta?"`,
+      expectedAnswer: "Quant val?",
+      hints: ["Cuidado con ampolla y roba."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `False friends are tricky here.`
     },
 {
       id: "a2-shop-09",
@@ -361,11 +361,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Compré." (Escenario A2 Compres 9)`,
-      expectedAnswer: "Vaig comprar.",
-      hints: [],
+      promptText: `Traduce: "Dame una botella."`,
+      expectedAnswer: "Dona'm una ampolla.",
+      hints: ["Cuidado con ampolla y roba."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `False friends are tricky here.`
     },
 {
       id: "a2-shop-10",
@@ -373,11 +373,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Compré." (Escenario A2 Compres 10)`,
-      expectedAnswer: "Vaig comprar.",
-      hints: [],
+      promptText: `Traduce: "Me duele la ampolla."`,
+      expectedAnswer: "Em fa mal la butllofa.",
+      hints: ["Cuidado con ampolla y roba."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `False friends are tricky here.`
     },
 {
       id: "a2-shop-11",
@@ -385,11 +385,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Compré." (Escenario A2 Compres 11)`,
-      expectedAnswer: "Vaig comprar.",
-      hints: [],
+      promptText: `Traduce: "Camina recto."`,
+      expectedAnswer: "Camina recte.",
+      hints: ["Cuidado con ampolla y roba."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `False friends are tricky here.`
     },
 {
       id: "a2-shop-12",
@@ -397,11 +397,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Compré." (Escenario A2 Compres 12)`,
-      expectedAnswer: "Vaig comprar.",
-      hints: [],
+      promptText: `Traduce: "No robes eso."`,
+      expectedAnswer: "No robis això.",
+      hints: ["Cuidado con ampolla y roba."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `False friends are tricky here.`
     },
 {
       id: "a2-shop-13",
@@ -409,11 +409,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Compré." (Escenario A2 Compres 13)`,
-      expectedAnswer: "Vaig comprar.",
-      hints: [],
+      promptText: `Traduce: "El abrigo negro."`,
+      expectedAnswer: "L'abric negre.",
+      hints: ["Cuidado con ampolla y roba."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `False friends are tricky here.`
     },
 {
       id: "a2-shop-14",
@@ -421,11 +421,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Compré." (Escenario A2 Compres 14)`,
-      expectedAnswer: "Vaig comprar.",
-      hints: [],
+      promptText: `Traduce: "Zapatos baratos."`,
+      expectedAnswer: "Sabates barates.",
+      hints: ["Cuidado con ampolla y roba."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `False friends are tricky here.`
     },
 {
       id: "a2-shop-15",
@@ -433,11 +433,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Compré." (Escenario A2 Compres 15)`,
-      expectedAnswer: "Vaig comprar.",
-      hints: [],
+      promptText: `Traduce: "Quiero probarme esto."`,
+      expectedAnswer: "Vull emprovar-me això.",
+      hints: ["Cuidado con ampolla y roba."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `False friends are tricky here.`
     },
 {
       id: "a2-shop-16",
@@ -445,11 +445,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Compré." (Escenario A2 Compres 16)`,
-      expectedAnswer: "Vaig comprar.",
-      hints: [],
+      promptText: `Traduce: "¿Tienen mi talla?"`,
+      expectedAnswer: "Teniu la meva talla?",
+      hints: ["Cuidado con ampolla y roba."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `False friends are tricky here.`
     },
 {
       id: "a2-shop-17",
@@ -457,11 +457,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Compré." (Escenario A2 Compres 17)`,
-      expectedAnswer: "Vaig comprar.",
-      hints: [],
+      promptText: `Traduce: "Me queda pequeño."`,
+      expectedAnswer: "Em va petit.",
+      hints: ["Cuidado con ampolla y roba."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `False friends are tricky here.`
     },
 {
       id: "a2-shop-18",
@@ -469,11 +469,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Compré." (Escenario A2 Compres 18)`,
-      expectedAnswer: "Vaig comprar.",
-      hints: [],
+      promptText: `Traduce: "Solo estoy mirando."`,
+      expectedAnswer: "Només estic mirant.",
+      hints: ["Cuidado con ampolla y roba."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `False friends are tricky here.`
     },
 {
       id: "a2-shop-19",
@@ -481,11 +481,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Compré." (Escenario A2 Compres 19)`,
-      expectedAnswer: "Vaig comprar.",
-      hints: [],
+      promptText: `Traduce: "El panadero."`,
+      expectedAnswer: "El forner.",
+      hints: ["Cuidado con ampolla y roba."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `False friends are tricky here.`
     },
 {
       id: "a2-shop-20",
@@ -493,11 +493,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce: "Compré." (Escenario A2 Compres 20)`,
-      expectedAnswer: "Vaig comprar.",
-      hints: [],
+      promptText: `Traduce: "Fui a la frutería."`,
+      expectedAnswer: "Vaig anar a la fruiteria.",
+      hints: ["Cuidado con ampolla y roba."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `False friends are tricky here.`
     }
       ]
     },
@@ -505,7 +505,7 @@ export const tierA2: Tier = {
       id: "a2-pronouns",
       title: "Pronoms Febles: En i Hi",
       description: "Master the weak pronouns EN and HI.",
-      icon: "🔄",
+      icon: "Repeat",
       scenarios: [
         {
       id: "a2-pron-01",
@@ -513,11 +513,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce usando pronombre feble (Escenario A2 Pronoms 1)`,
-      expectedAnswer: "En vull.",
-      hints: [],
+      promptText: `Sustituye con EN o HI: "Tengo manzanas -> Tengo dos."`,
+      expectedAnswer: "En tinc dues.",
+      hints: ["'En' = de/cantidad, 'Hi' = a/en (lugar o tema)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Pronombres en/hi.`
     },
 {
       id: "a2-pron-02",
@@ -525,11 +525,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce usando pronombre feble (Escenario A2 Pronoms 2)`,
-      expectedAnswer: "En vull.",
-      hints: [],
+      promptText: `Sustituye con EN o HI: "Voy a casa -> Voy."`,
+      expectedAnswer: "Hi vaig.",
+      hints: ["'En' = de/cantidad, 'Hi' = a/en (lugar o tema)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Pronombres en/hi.`
     },
 {
       id: "a2-pron-03",
@@ -537,11 +537,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce usando pronombre feble (Escenario A2 Pronoms 3)`,
-      expectedAnswer: "En vull.",
-      hints: [],
+      promptText: `Sustituye con EN o HI: "No tengo dinero -> No tengo."`,
+      expectedAnswer: "No en tinc.",
+      hints: ["'En' = de/cantidad, 'Hi' = a/en (lugar o tema)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Pronombres en/hi.`
     },
 {
       id: "a2-pron-04",
@@ -549,11 +549,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce usando pronombre feble (Escenario A2 Pronoms 4)`,
-      expectedAnswer: "En vull.",
-      hints: [],
+      promptText: `Sustituye con EN o HI: "¿Vas al cine? -> Sí, voy."`,
+      expectedAnswer: "Sí, hi vaig.",
+      hints: ["'En' = de/cantidad, 'Hi' = a/en (lugar o tema)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Pronombres en/hi.`
     },
 {
       id: "a2-pron-05",
@@ -561,11 +561,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce usando pronombre feble (Escenario A2 Pronoms 5)`,
-      expectedAnswer: "En vull.",
-      hints: [],
+      promptText: `Sustituye con EN o HI: "Vengo del mercado -> Vengo."`,
+      expectedAnswer: "En vinc.",
+      hints: ["'En' = de/cantidad, 'Hi' = a/en (lugar o tema)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Pronombres en/hi.`
     },
 {
       id: "a2-pron-06",
@@ -573,11 +573,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce usando pronombre feble (Escenario A2 Pronoms 6)`,
-      expectedAnswer: "En vull.",
-      hints: [],
+      promptText: `Sustituye con EN o HI: "Ponlo en la mesa -> Ponlo allí."`,
+      expectedAnswer: "Posa-hi-ho.",
+      hints: ["'En' = de/cantidad, 'Hi' = a/en (lugar o tema)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Pronombres en/hi.`
     },
 {
       id: "a2-pron-07",
@@ -585,11 +585,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce usando pronombre feble (Escenario A2 Pronoms 7)`,
-      expectedAnswer: "En vull.",
-      hints: [],
+      promptText: `Sustituye con EN o HI: "Piensa en eso -> Piensa."`,
+      expectedAnswer: "Pensa-hi.",
+      hints: ["'En' = de/cantidad, 'Hi' = a/en (lugar o tema)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Pronombres en/hi.`
     },
 {
       id: "a2-pron-08",
@@ -597,11 +597,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce usando pronombre feble (Escenario A2 Pronoms 8)`,
-      expectedAnswer: "En vull.",
-      hints: [],
+      promptText: `Sustituye con EN o HI: "Hablan del tema -> Hablan."`,
+      expectedAnswer: "En parlen.",
+      hints: ["'En' = de/cantidad, 'Hi' = a/en (lugar o tema)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Pronombres en/hi.`
     },
 {
       id: "a2-pron-09",
@@ -609,11 +609,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce usando pronombre feble (Escenario A2 Pronoms 9)`,
-      expectedAnswer: "En vull.",
-      hints: [],
+      promptText: `Sustituye con EN o HI: "Coge tres fresas -> Coge tres."`,
+      expectedAnswer: "Agafa'n tres.",
+      hints: ["'En' = de/cantidad, 'Hi' = a/en (lugar o tema)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Pronombres en/hi.`
     },
 {
       id: "a2-pron-10",
@@ -621,11 +621,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce usando pronombre feble (Escenario A2 Pronoms 10)`,
-      expectedAnswer: "En vull.",
-      hints: [],
+      promptText: `Sustituye con EN o HI: "Pon agua -> Pon."`,
+      expectedAnswer: "Posa'n.",
+      hints: ["'En' = de/cantidad, 'Hi' = a/en (lugar o tema)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Pronombres en/hi.`
     },
 {
       id: "a2-pron-11",
@@ -633,11 +633,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce usando pronombre feble (Escenario A2 Pronoms 11)`,
-      expectedAnswer: "En vull.",
-      hints: [],
+      promptText: `Sustituye con EN o HI: "Trabajo en Barcelona -> Trabajo allí."`,
+      expectedAnswer: "Hi treballo.",
+      hints: ["'En' = de/cantidad, 'Hi' = a/en (lugar o tema)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Pronombres en/hi.`
     },
 {
       id: "a2-pron-12",
@@ -645,11 +645,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce usando pronombre feble (Escenario A2 Pronoms 12)`,
-      expectedAnswer: "En vull.",
-      hints: [],
+      promptText: `Sustituye con EN o HI: "No estoy de acuerdo con eso -> No estoy de acuerdo."`,
+      expectedAnswer: "No hi estic d'acord.",
+      hints: ["'En' = de/cantidad, 'Hi' = a/en (lugar o tema)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Pronombres en/hi.`
     },
 {
       id: "a2-pron-13",
@@ -657,11 +657,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce usando pronombre feble (Escenario A2 Pronoms 13)`,
-      expectedAnswer: "En vull.",
-      hints: [],
+      promptText: `Sustituye con EN o HI: "Sale de la casa -> Sale."`,
+      expectedAnswer: "En surt.",
+      hints: ["'En' = de/cantidad, 'Hi' = a/en (lugar o tema)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Pronombres en/hi.`
     },
 {
       id: "a2-pron-14",
@@ -669,11 +669,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce usando pronombre feble (Escenario A2 Pronoms 14)`,
-      expectedAnswer: "En vull.",
-      hints: [],
+      promptText: `Sustituye con EN o HI: "Come pastel -> Come."`,
+      expectedAnswer: "En menja.",
+      hints: ["'En' = de/cantidad, 'Hi' = a/en (lugar o tema)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Pronombres en/hi.`
     },
 {
       id: "a2-pron-15",
@@ -681,11 +681,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce usando pronombre feble (Escenario A2 Pronoms 15)`,
-      expectedAnswer: "En vull.",
-      hints: [],
+      promptText: `Sustituye con EN o HI: "Mete la llave en la puerta -> Métela allí."`,
+      expectedAnswer: "Fica-l'hi.",
+      hints: ["'En' = de/cantidad, 'Hi' = a/en (lugar o tema)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Pronombres en/hi.`
     },
 {
       id: "a2-pron-16",
@@ -693,11 +693,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce usando pronombre feble (Escenario A2 Pronoms 16)`,
-      expectedAnswer: "En vull.",
-      hints: [],
+      promptText: `Sustituye con EN o HI: "Me voy de aquí -> Me voy."`,
+      expectedAnswer: "Me'n vaig.",
+      hints: ["'En' = de/cantidad, 'Hi' = a/en (lugar o tema)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Pronombres en/hi.`
     },
 {
       id: "a2-pron-17",
@@ -705,11 +705,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce usando pronombre feble (Escenario A2 Pronoms 17)`,
-      expectedAnswer: "En vull.",
-      hints: [],
+      promptText: `Sustituye con EN o HI: "¿Hay leche? -> Sí, hay."`,
+      expectedAnswer: "Sí que n'hi ha.",
+      hints: ["'En' = de/cantidad, 'Hi' = a/en (lugar o tema)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Pronombres en/hi.`
     },
 {
       id: "a2-pron-18",
@@ -717,11 +717,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce usando pronombre feble (Escenario A2 Pronoms 18)`,
-      expectedAnswer: "En vull.",
-      hints: [],
+      promptText: `Sustituye con EN o HI: "Trae manzanas -> Trae."`,
+      expectedAnswer: "Porta'n.",
+      hints: ["'En' = de/cantidad, 'Hi' = a/en (lugar o tema)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Pronombres en/hi.`
     },
 {
       id: "a2-pron-19",
@@ -729,11 +729,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce usando pronombre feble (Escenario A2 Pronoms 19)`,
-      expectedAnswer: "En vull.",
-      hints: [],
+      promptText: `Sustituye con EN o HI: "No va al teatro -> No va."`,
+      expectedAnswer: "No hi va.",
+      hints: ["'En' = de/cantidad, 'Hi' = a/en (lugar o tema)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Pronombres en/hi.`
     },
 {
       id: "a2-pron-20",
@@ -741,11 +741,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Traduce usando pronombre feble (Escenario A2 Pronoms 20)`,
-      expectedAnswer: "En vull.",
-      hints: [],
+      promptText: `Sustituye con EN o HI: "Quita eso de ahí -> Quítalo."`,
+      expectedAnswer: "Treu-ho d'allà.",
+      hints: ["'En' = de/cantidad, 'Hi' = a/en (lugar o tema)"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Pronombres en/hi.`
     }
       ]
     },
@@ -753,7 +753,7 @@ export const tierA2: Tier = {
       id: "a2-housing",
       title: "Habitatge: Llogar i Les Golfes",
       description: "Vocabulary related to housing.",
-      icon: "🏠",
+      icon: "Home",
       scenarios: [
         {
       id: "a2-hous-01",
@@ -761,11 +761,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Palabra de casa (Escenario A2 Habitatge 1)`,
-      expectedAnswer: "La casa.",
-      hints: [],
+      promptText: `Traduce: "Alquilo un piso."`,
+      expectedAnswer: "Llogo un pis.",
+      hints: ["'Alquilar' es llogar, no alquilar."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Habitatge vocabulary.`
     },
 {
       id: "a2-hous-02",
@@ -773,11 +773,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Palabra de casa (Escenario A2 Habitatge 2)`,
-      expectedAnswer: "La casa.",
-      hints: [],
+      promptText: `Traduce: "Las llaves de casa."`,
+      expectedAnswer: "Les claus de casa.",
+      hints: ["'Alquilar' es llogar, no alquilar."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Habitatge vocabulary.`
     },
 {
       id: "a2-hous-03",
@@ -785,11 +785,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Palabra de casa (Escenario A2 Habitatge 3)`,
-      expectedAnswer: "La casa.",
-      hints: [],
+      promptText: `Traduce: "El altillo está sucio."`,
+      expectedAnswer: "Les golfes estan brutes.",
+      hints: ["'Alquilar' es llogar, no alquilar."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Habitatge vocabulary.`
     },
 {
       id: "a2-hous-04",
@@ -797,11 +797,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Palabra de casa (Escenario A2 Habitatge 4)`,
-      expectedAnswer: "La casa.",
-      hints: [],
+      promptText: `Traduce: "El comedor es grande."`,
+      expectedAnswer: "El menjador és gran.",
+      hints: ["'Alquilar' es llogar, no alquilar."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Habitatge vocabulary.`
     },
 {
       id: "a2-hous-05",
@@ -809,11 +809,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Palabra de casa (Escenario A2 Habitatge 5)`,
-      expectedAnswer: "La casa.",
-      hints: [],
+      promptText: `Traduce: "Me mudo mañana."`,
+      expectedAnswer: "Em mudo demà.",
+      hints: ["'Alquilar' es llogar, no alquilar."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Habitatge vocabulary.`
     },
 {
       id: "a2-hous-06",
@@ -821,11 +821,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Palabra de casa (Escenario A2 Habitatge 6)`,
-      expectedAnswer: "La casa.",
-      hints: [],
+      promptText: `Traduce: "La habitación."`,
+      expectedAnswer: "L'habitació.",
+      hints: ["'Alquilar' es llogar, no alquilar."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Habitatge vocabulary.`
     },
 {
       id: "a2-hous-07",
@@ -833,11 +833,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Palabra de casa (Escenario A2 Habitatge 7)`,
-      expectedAnswer: "La casa.",
-      hints: [],
+      promptText: `Traduce: "El baño."`,
+      expectedAnswer: "El lavabo.",
+      hints: ["'Alquilar' es llogar, no alquilar."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Habitatge vocabulary.`
     },
 {
       id: "a2-hous-08",
@@ -845,11 +845,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Palabra de casa (Escenario A2 Habitatge 8)`,
-      expectedAnswer: "La casa.",
-      hints: [],
+      promptText: `Traduce: "La cocina."`,
+      expectedAnswer: "La cuina.",
+      hints: ["'Alquilar' es llogar, no alquilar."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Habitatge vocabulary.`
     },
 {
       id: "a2-hous-09",
@@ -857,11 +857,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Palabra de casa (Escenario A2 Habitatge 9)`,
-      expectedAnswer: "La casa.",
-      hints: [],
+      promptText: `Traduce: "El balcón."`,
+      expectedAnswer: "El balcó.",
+      hints: ["'Alquilar' es llogar, no alquilar."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Habitatge vocabulary.`
     },
 {
       id: "a2-hous-10",
@@ -869,11 +869,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Palabra de casa (Escenario A2 Habitatge 10)`,
-      expectedAnswer: "La casa.",
-      hints: [],
+      promptText: `Traduce: "Tengo que pagar el alquiler."`,
+      expectedAnswer: "He de pagar el lloguer.",
+      hints: ["'Alquilar' es llogar, no alquilar."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Habitatge vocabulary.`
     },
 {
       id: "a2-hous-11",
@@ -881,11 +881,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Palabra de casa (Escenario A2 Habitatge 11)`,
-      expectedAnswer: "La casa.",
-      hints: [],
+      promptText: `Traduce: "Falta la fianza."`,
+      expectedAnswer: "Falta la fiança.",
+      hints: ["'Alquilar' es llogar, no alquilar."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Habitatge vocabulary.`
     },
 {
       id: "a2-hous-12",
@@ -893,11 +893,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Palabra de casa (Escenario A2 Habitatge 12)`,
-      expectedAnswer: "La casa.",
-      hints: [],
+      promptText: `Traduce: "Vecinos ruidosos."`,
+      expectedAnswer: "Veïns sorollosos.",
+      hints: ["'Alquilar' es llogar, no alquilar."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Habitatge vocabulary.`
     },
 {
       id: "a2-hous-13",
@@ -905,11 +905,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Palabra de casa (Escenario A2 Habitatge 13)`,
-      expectedAnswer: "La casa.",
-      hints: [],
+      promptText: `Traduce: "La escalera."`,
+      expectedAnswer: "L'escala.",
+      hints: ["'Alquilar' es llogar, no alquilar."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Habitatge vocabulary.`
     },
 {
       id: "a2-hous-14",
@@ -917,11 +917,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Palabra de casa (Escenario A2 Habitatge 14)`,
-      expectedAnswer: "La casa.",
-      hints: [],
+      promptText: `Traduce: "Ascensor."`,
+      expectedAnswer: "Ascensor.",
+      hints: ["'Alquilar' es llogar, no alquilar."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Habitatge vocabulary.`
     },
 {
       id: "a2-hous-15",
@@ -929,11 +929,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Palabra de casa (Escenario A2 Habitatge 15)`,
-      expectedAnswer: "La casa.",
-      hints: [],
+      promptText: `Traduce: "El tejado."`,
+      expectedAnswer: "La teulada.",
+      hints: ["'Alquilar' es llogar, no alquilar."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Habitatge vocabulary.`
     },
 {
       id: "a2-hous-16",
@@ -941,11 +941,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Palabra de casa (Escenario A2 Habitatge 16)`,
-      expectedAnswer: "La casa.",
-      hints: [],
+      promptText: `Traduce: "El pasillo."`,
+      expectedAnswer: "El passadís.",
+      hints: ["'Alquilar' es llogar, no alquilar."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Habitatge vocabulary.`
     },
 {
       id: "a2-hous-17",
@@ -953,11 +953,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Palabra de casa (Escenario A2 Habitatge 17)`,
-      expectedAnswer: "La casa.",
-      hints: [],
+      promptText: `Traduce: "La ventana."`,
+      expectedAnswer: "La finestra.",
+      hints: ["'Alquilar' es llogar, no alquilar."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Habitatge vocabulary.`
     },
 {
       id: "a2-hous-18",
@@ -965,11 +965,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Palabra de casa (Escenario A2 Habitatge 18)`,
-      expectedAnswer: "La casa.",
-      hints: [],
+      promptText: `Traduce: "La puerta."`,
+      expectedAnswer: "La porta.",
+      hints: ["'Alquilar' es llogar, no alquilar."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Habitatge vocabulary.`
     },
 {
       id: "a2-hous-19",
@@ -977,11 +977,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Palabra de casa (Escenario A2 Habitatge 19)`,
-      expectedAnswer: "La casa.",
-      hints: [],
+      promptText: `Traduce: "El jardín."`,
+      expectedAnswer: "El jardí.",
+      hints: ["'Alquilar' es llogar, no alquilar."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Habitatge vocabulary.`
     },
 {
       id: "a2-hous-20",
@@ -989,11 +989,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Palabra de casa (Escenario A2 Habitatge 20)`,
-      expectedAnswer: "La casa.",
-      hints: [],
+      promptText: `Traduce: "Un barrio tranquilo."`,
+      expectedAnswer: "Un barri tranquil.",
+      hints: ["'Alquilar' es llogar, no alquilar."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Habitatge vocabulary.`
     }
       ]
     },
@@ -1001,7 +1001,7 @@ export const tierA2: Tier = {
       id: "a2-phones",
       title: "Converses Telefòniques",
       description: "Phone conversations.",
-      icon: "📱",
+      icon: "Smartphone",
       scenarios: [
         {
       id: "a2-phon-01",
@@ -1009,11 +1009,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Contesta (Escenario A2 Telefòn 1)`,
+      promptText: `Traduce al contestar/hablar por teléfono: "Dígame."`,
       expectedAnswer: "Diga'm.",
-      hints: [],
+      hints: ["Para preguntar si alguien está usa 'Hi és?'"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Conversaciones telefónicas.`
     },
 {
       id: "a2-phon-02",
@@ -1021,11 +1021,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Contesta (Escenario A2 Telefòn 2)`,
-      expectedAnswer: "Diga'm.",
-      hints: [],
+      promptText: `Traduce al contestar/hablar por teléfono: "¿Está Joan?"`,
+      expectedAnswer: "Hi és en Joan?",
+      hints: ["Para preguntar si alguien está usa 'Hi és?'"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Conversaciones telefónicas.`
     },
 {
       id: "a2-phon-03",
@@ -1033,11 +1033,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Contesta (Escenario A2 Telefòn 3)`,
-      expectedAnswer: "Diga'm.",
-      hints: [],
+      promptText: `Traduce al contestar/hablar por teléfono: "Se ha equivocado."`,
+      expectedAnswer: "S'ha equivocat.",
+      hints: ["Para preguntar si alguien está usa 'Hi és?'"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Conversaciones telefónicas.`
     },
 {
       id: "a2-phon-04",
@@ -1045,11 +1045,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Contesta (Escenario A2 Telefòn 4)`,
-      expectedAnswer: "Diga'm.",
-      hints: [],
+      promptText: `Traduce al contestar/hablar por teléfono: "Llamo más tarde."`,
+      expectedAnswer: "Truco més tard.",
+      hints: ["Para preguntar si alguien está usa 'Hi és?'"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Conversaciones telefónicas.`
     },
 {
       id: "a2-phon-05",
@@ -1057,11 +1057,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Contesta (Escenario A2 Telefòn 5)`,
-      expectedAnswer: "Diga'm.",
-      hints: [],
+      promptText: `Traduce al contestar/hablar por teléfono: "Deje un mensaje."`,
+      expectedAnswer: "Deixi un missatge.",
+      hints: ["Para preguntar si alguien está usa 'Hi és?'"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Conversaciones telefónicas.`
     },
 {
       id: "a2-phon-06",
@@ -1069,11 +1069,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Contesta (Escenario A2 Telefòn 6)`,
-      expectedAnswer: "Diga'm.",
-      hints: [],
+      promptText: `Traduce al contestar/hablar por teléfono: "No hay cobertura."`,
+      expectedAnswer: "No hi ha cobertura.",
+      hints: ["Para preguntar si alguien está usa 'Hi és?'"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Conversaciones telefónicas.`
     },
 {
       id: "a2-phon-07",
@@ -1081,11 +1081,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Contesta (Escenario A2 Telefòn 7)`,
-      expectedAnswer: "Diga'm.",
-      hints: [],
+      promptText: `Traduce al contestar/hablar por teléfono: "Se corta la llamada."`,
+      expectedAnswer: "Es talla la trucada.",
+      hints: ["Para preguntar si alguien está usa 'Hi és?'"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Conversaciones telefónicas.`
     },
 {
       id: "a2-phon-08",
@@ -1093,11 +1093,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Contesta (Escenario A2 Telefòn 8)`,
-      expectedAnswer: "Diga'm.",
-      hints: [],
+      promptText: `Traduce al contestar/hablar por teléfono: "¿De parte de quién?"`,
+      expectedAnswer: "De part de qui?",
+      hints: ["Para preguntar si alguien está usa 'Hi és?'"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Conversaciones telefónicas.`
     },
 {
       id: "a2-phon-09",
@@ -1105,11 +1105,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Contesta (Escenario A2 Telefòn 9)`,
-      expectedAnswer: "Diga'm.",
-      hints: [],
+      promptText: `Traduce al contestar/hablar por teléfono: "Le paso la llamada."`,
+      expectedAnswer: "Li passo la trucada.",
+      hints: ["Para preguntar si alguien está usa 'Hi és?'"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Conversaciones telefónicas.`
     },
 {
       id: "a2-phon-10",
@@ -1117,11 +1117,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Contesta (Escenario A2 Telefòn 10)`,
-      expectedAnswer: "Diga'm.",
-      hints: [],
+      promptText: `Traduce al contestar/hablar por teléfono: "Un momento, por favor."`,
+      expectedAnswer: "Un moment, si us plau.",
+      hints: ["Para preguntar si alguien está usa 'Hi és?'"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Conversaciones telefónicas.`
     },
 {
       id: "a2-phon-11",
@@ -1129,11 +1129,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Contesta (Escenario A2 Telefòn 11)`,
-      expectedAnswer: "Diga'm.",
-      hints: [],
+      promptText: `Traduce al contestar/hablar por teléfono: "Hola, soy Laia."`,
+      expectedAnswer: "Hola, sóc la Laia.",
+      hints: ["Para preguntar si alguien está usa 'Hi és?'"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Conversaciones telefónicas.`
     },
 {
       id: "a2-phon-12",
@@ -1141,11 +1141,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Contesta (Escenario A2 Telefòn 12)`,
-      expectedAnswer: "Diga'm.",
-      hints: [],
+      promptText: `Traduce al contestar/hablar por teléfono: "Quiero hablar con el jefe."`,
+      expectedAnswer: "Vull parlar amb el cap.",
+      hints: ["Para preguntar si alguien está usa 'Hi és?'"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Conversaciones telefónicas.`
     },
 {
       id: "a2-phon-13",
@@ -1153,11 +1153,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Contesta (Escenario A2 Telefòn 13)`,
-      expectedAnswer: "Diga'm.",
-      hints: [],
+      promptText: `Traduce al contestar/hablar por teléfono: "No cuelgue."`,
+      expectedAnswer: "No pengi.",
+      hints: ["Para preguntar si alguien está usa 'Hi és?'"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Conversaciones telefónicas.`
     },
 {
       id: "a2-phon-14",
@@ -1165,11 +1165,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Contesta (Escenario A2 Telefòn 14)`,
-      expectedAnswer: "Diga'm.",
-      hints: [],
+      promptText: `Traduce al contestar/hablar por teléfono: "Batería baja."`,
+      expectedAnswer: "Bateria baixa.",
+      hints: ["Para preguntar si alguien está usa 'Hi és?'"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Conversaciones telefónicas.`
     },
 {
       id: "a2-phon-15",
@@ -1177,11 +1177,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Contesta (Escenario A2 Telefòn 15)`,
-      expectedAnswer: "Diga'm.",
-      hints: [],
+      promptText: `Traduce al contestar/hablar por teléfono: "Llamada perdida."`,
+      expectedAnswer: "Trucada perduda.",
+      hints: ["Para preguntar si alguien está usa 'Hi és?'"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Conversaciones telefónicas.`
     },
 {
       id: "a2-phon-16",
@@ -1189,11 +1189,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Contesta (Escenario A2 Telefòn 16)`,
-      expectedAnswer: "Diga'm.",
-      hints: [],
+      promptText: `Traduce al contestar/hablar por teléfono: "Devuélveme la llamada."`,
+      expectedAnswer: "Torna'm la trucada.",
+      hints: ["Para preguntar si alguien está usa 'Hi és?'"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Conversaciones telefónicas.`
     },
 {
       id: "a2-phon-17",
@@ -1201,11 +1201,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Contesta (Escenario A2 Telefòn 17)`,
-      expectedAnswer: "Diga'm.",
-      hints: [],
+      promptText: `Traduce al contestar/hablar por teléfono: "Habla más alto."`,
+      expectedAnswer: "Parla més fort.",
+      hints: ["Para preguntar si alguien está usa 'Hi és?'"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Conversaciones telefónicas.`
     },
 {
       id: "a2-phon-18",
@@ -1213,11 +1213,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Contesta (Escenario A2 Telefòn 18)`,
-      expectedAnswer: "Diga'm.",
-      hints: [],
+      promptText: `Traduce al contestar/hablar por teléfono: "No te oigo."`,
+      expectedAnswer: "No et sento.",
+      hints: ["Para preguntar si alguien está usa 'Hi és?'"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Conversaciones telefónicas.`
     },
 {
       id: "a2-phon-19",
@@ -1225,11 +1225,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Contesta (Escenario A2 Telefòn 19)`,
-      expectedAnswer: "Diga'm.",
-      hints: [],
+      promptText: `Traduce al contestar/hablar por teléfono: "¿Puedes repetir?"`,
+      expectedAnswer: "Pots repetir?",
+      hints: ["Para preguntar si alguien está usa 'Hi és?'"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Conversaciones telefónicas.`
     },
 {
       id: "a2-phon-20",
@@ -1237,11 +1237,11 @@ export const tierA2: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Contesta (Escenario A2 Telefòn 20)`,
-      expectedAnswer: "Diga'm.",
-      hints: [],
+      promptText: `Traduce al contestar/hablar por teléfono: "Gracias por llamar."`,
+      expectedAnswer: "Gràcies per trucar.",
+      hints: ["Para preguntar si alguien está usa 'Hi és?'"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Conversaciones telefónicas.`
     }
       ]
     }

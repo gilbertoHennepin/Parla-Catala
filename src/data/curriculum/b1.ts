@@ -9,7 +9,7 @@ export const tierB1: Tier = {
       id: "b1-subjunctive",
       title: "Subjuntiu i Dubtes",
       description: "Expressing doubt and hypothetical situations.",
-      icon: "🤔",
+      icon: "Brain",
       scenarios: [
         {
       id: "b1-subj-01",
@@ -17,11 +17,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Subjuntivo frase 1`,
-      expectedAnswer: "Que vagi bé.",
-      hints: [],
+      promptText: `Traduce: "Espero que vengas."`,
+      expectedAnswer: "Espero que vinguis.",
+      hints: ["Subjuntivo catalán"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Dubtes i subjuntiu.`
     },
 {
       id: "b1-subj-02",
@@ -29,11 +29,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Subjuntivo frase 2`,
-      expectedAnswer: "Que vagi bé.",
-      hints: [],
+      promptText: `Traduce: "Quiero que lo hagas."`,
+      expectedAnswer: "Vull que ho facis.",
+      hints: ["Subjuntivo catalán"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Dubtes i subjuntiu.`
     },
 {
       id: "b1-subj-03",
@@ -41,11 +41,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Subjuntivo frase 3`,
-      expectedAnswer: "Que vagi bé.",
-      hints: [],
+      promptText: `Traduce: "Dudo que llueva."`,
+      expectedAnswer: "Dubto que plogui.",
+      hints: ["Subjuntivo catalán"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Dubtes i subjuntiu.`
     },
 {
       id: "b1-subj-04",
@@ -53,11 +53,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Subjuntivo frase 4`,
-      expectedAnswer: "Que vagi bé.",
-      hints: [],
+      promptText: `Traduce: "Quizás vayamos."`,
+      expectedAnswer: "Potser hi anirem.",
+      hints: ["Subjuntivo catalán"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Dubtes i subjuntiu.`
     },
 {
       id: "b1-subj-05",
@@ -65,11 +65,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Subjuntivo frase 5`,
-      expectedAnswer: "Que vagi bé.",
-      hints: [],
+      promptText: `Traduce: "No creo que sea verdad."`,
+      expectedAnswer: "No crec que sigui veritat.",
+      hints: ["Subjuntivo catalán"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Dubtes i subjuntiu.`
     },
 {
       id: "b1-subj-06",
@@ -77,11 +77,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Subjuntivo frase 6`,
-      expectedAnswer: "Que vagi bé.",
-      hints: [],
+      promptText: `Traduce: "Cuando llegues, llámame."`,
+      expectedAnswer: "Quan arribis, truca'm.",
+      hints: ["Subjuntivo catalán"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Dubtes i subjuntiu.`
     },
 {
       id: "b1-subj-07",
@@ -89,11 +89,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Subjuntivo frase 7`,
-      expectedAnswer: "Que vagi bé.",
-      hints: [],
+      promptText: `Traduce: "Ojalá apruebe."`,
+      expectedAnswer: "Tant de bo aprovi.",
+      hints: ["Subjuntivo catalán"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Dubtes i subjuntiu.`
     },
 {
       id: "b1-subj-08",
@@ -101,11 +101,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Subjuntivo frase 8`,
-      expectedAnswer: "Que vagi bé.",
-      hints: [],
+      promptText: `Traduce: "Es importante que estudies."`,
+      expectedAnswer: "És important que estudiïs.",
+      hints: ["Subjuntivo catalán"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Dubtes i subjuntiu.`
     },
 {
       id: "b1-subj-09",
@@ -113,11 +113,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Subjuntivo frase 9`,
-      expectedAnswer: "Que vagi bé.",
-      hints: [],
+      promptText: `Traduce: "Me alegro de que estés aquí."`,
+      expectedAnswer: "M'alegro que siguis aquí.",
+      hints: ["Subjuntivo catalán"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Dubtes i subjuntiu.`
     },
 {
       id: "b1-subj-10",
@@ -125,11 +125,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Subjuntivo frase 10`,
-      expectedAnswer: "Que vagi bé.",
-      hints: [],
+      promptText: `Traduce: "No pienso que tengamos tiempo."`,
+      expectedAnswer: "No penso que tinguem temps.",
+      hints: ["Subjuntivo catalán"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Dubtes i subjuntiu.`
     },
 {
       id: "b1-subj-11",
@@ -137,11 +137,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Subjuntivo frase 11`,
-      expectedAnswer: "Que vagi bé.",
-      hints: [],
+      promptText: `Traduce: "Aunque llueva, saldré."`,
+      expectedAnswer: "Encara que plogui, sortiré.",
+      hints: ["Subjuntivo catalán"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Dubtes i subjuntiu.`
     },
 {
       id: "b1-subj-12",
@@ -149,11 +149,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Subjuntivo frase 12`,
-      expectedAnswer: "Que vagi bé.",
-      hints: [],
+      promptText: `Traduce: "Para que lo entiendas."`,
+      expectedAnswer: "Perquè ho entenguis.",
+      hints: ["Subjuntivo catalán"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Dubtes i subjuntiu.`
     },
 {
       id: "b1-subj-13",
@@ -161,11 +161,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Subjuntivo frase 13`,
-      expectedAnswer: "Que vagi bé.",
-      hints: [],
+      promptText: `Traduce: "Antes de que salgas."`,
+      expectedAnswer: "Abans que surtis.",
+      hints: ["Subjuntivo catalán"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Dubtes i subjuntiu.`
     },
 {
       id: "b1-subj-14",
@@ -173,11 +173,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Subjuntivo frase 14`,
-      expectedAnswer: "Que vagi bé.",
-      hints: [],
+      promptText: `Traduce: "Te pido que me escuches."`,
+      expectedAnswer: "Et demano que m'escoltis.",
+      hints: ["Subjuntivo catalán"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Dubtes i subjuntiu.`
     },
 {
       id: "b1-subj-15",
@@ -185,11 +185,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Subjuntivo frase 15`,
-      expectedAnswer: "Que vagi bé.",
-      hints: [],
+      promptText: `Traduce: "Busco a alguien que hable inglés."`,
+      expectedAnswer: "Busco algú que parli anglès.",
+      hints: ["Subjuntivo catalán"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Dubtes i subjuntiu.`
     },
 {
       id: "b1-subj-16",
@@ -197,11 +197,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Subjuntivo frase 16`,
-      expectedAnswer: "Que vagi bé.",
-      hints: [],
+      promptText: `Traduce: "No es que no quiera."`,
+      expectedAnswer: "No és que no vulgui.",
+      hints: ["Subjuntivo catalán"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Dubtes i subjuntiu.`
     },
 {
       id: "b1-subj-17",
@@ -209,11 +209,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Subjuntivo frase 17`,
-      expectedAnswer: "Que vagi bé.",
-      hints: [],
+      promptText: `Traduce: "Puede que lo sepan."`,
+      expectedAnswer: "Pot ser que ho sàpiguen.",
+      hints: ["Subjuntivo catalán"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Dubtes i subjuntiu.`
     },
 {
       id: "b1-subj-18",
@@ -221,11 +221,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Subjuntivo frase 18`,
-      expectedAnswer: "Que vagi bé.",
-      hints: [],
+      promptText: `Traduce: "Es posible que ganemos."`,
+      expectedAnswer: "És possible que guanyem.",
+      hints: ["Subjuntivo catalán"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Dubtes i subjuntiu.`
     },
 {
       id: "b1-subj-19",
@@ -233,11 +233,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Subjuntivo frase 19`,
-      expectedAnswer: "Que vagi bé.",
-      hints: [],
+      promptText: `Traduce: "Espero que vaya bien."`,
+      expectedAnswer: "Espero que vagi bé.",
+      hints: ["Subjuntivo catalán"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Dubtes i subjuntiu.`
     },
 {
       id: "b1-subj-20",
@@ -245,11 +245,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Subjuntivo frase 20`,
-      expectedAnswer: "Que vagi bé.",
-      hints: [],
+      promptText: `Traduce: "Que tengas un buen día."`,
+      expectedAnswer: "Que tinguis un bon dia.",
+      hints: ["Subjuntivo catalán"],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Dubtes i subjuntiu.`
     }
       ]
     },
@@ -257,7 +257,7 @@ export const tierB1: Tier = {
       id: "b1-medical",
       title: "Al Metge",
       description: "Medical vocabulary.",
-      icon: "🏥",
+      icon: "Hospital",
       scenarios: [
         {
       id: "b1-med-01",
@@ -265,11 +265,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Síntoma 1`,
-      expectedAnswer: "Em fa mal.",
-      hints: [],
+      promptText: `Traduce: "Me duele la espalda."`,
+      expectedAnswer: "Em fa mal l'esquena.",
+      hints: ["'Médico' es metge."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Vocabulari mèdic.`
     },
 {
       id: "b1-med-02",
@@ -277,11 +277,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Síntoma 2`,
-      expectedAnswer: "Em fa mal.",
-      hints: [],
+      promptText: `Traduce: "Tengo tos."`,
+      expectedAnswer: "Tinc tos.",
+      hints: ["'Médico' es metge."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Vocabulari mèdic.`
     },
 {
       id: "b1-med-03",
@@ -289,11 +289,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Síntoma 3`,
-      expectedAnswer: "Em fa mal.",
-      hints: [],
+      promptText: `Traduce: "Estoy resfriado."`,
+      expectedAnswer: "Estic refredat.",
+      hints: ["'Médico' es metge."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Vocabulari mèdic.`
     },
 {
       id: "b1-med-04",
@@ -301,11 +301,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Síntoma 4`,
-      expectedAnswer: "Em fa mal.",
-      hints: [],
+      promptText: `Traduce: "Necesito una receta."`,
+      expectedAnswer: "Necessito una recepta.",
+      hints: ["'Médico' es metge."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Vocabulari mèdic.`
     },
 {
       id: "b1-med-05",
@@ -313,11 +313,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Síntoma 5`,
-      expectedAnswer: "Em fa mal.",
-      hints: [],
+      promptText: `Traduce: "El médico de cabecera."`,
+      expectedAnswer: "El metge de capçalera.",
+      hints: ["'Médico' es metge."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Vocabulari mèdic.`
     },
 {
       id: "b1-med-06",
@@ -325,11 +325,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Síntoma 6`,
-      expectedAnswer: "Em fa mal.",
-      hints: [],
+      promptText: `Traduce: "Tomar pastillas."`,
+      expectedAnswer: "Prendre pastilles.",
+      hints: ["'Médico' es metge."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Vocabulari mèdic.`
     },
 {
       id: "b1-med-07",
@@ -337,11 +337,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Síntoma 7`,
-      expectedAnswer: "Em fa mal.",
-      hints: [],
+      promptText: `Traduce: "Tengo fiebre."`,
+      expectedAnswer: "Tinc febre.",
+      hints: ["'Médico' es metge."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Vocabulari mèdic.`
     },
 {
       id: "b1-med-08",
@@ -349,11 +349,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Síntoma 8`,
-      expectedAnswer: "Em fa mal.",
-      hints: [],
+      promptText: `Traduce: "Me he cortado."`,
+      expectedAnswer: "M'he tallat.",
+      hints: ["'Médico' es metge."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Vocabulari mèdic.`
     },
 {
       id: "b1-med-09",
@@ -361,11 +361,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Síntoma 9`,
-      expectedAnswer: "Em fa mal.",
-      hints: [],
+      promptText: `Traduce: "Hospital de urgencias."`,
+      expectedAnswer: "Hospital d'urgències.",
+      hints: ["'Médico' es metge."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Vocabulari mèdic.`
     },
 {
       id: "b1-med-10",
@@ -373,11 +373,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Síntoma 10`,
-      expectedAnswer: "Em fa mal.",
-      hints: [],
+      promptText: `Traduce: "La enfermera."`,
+      expectedAnswer: "La infermera.",
+      hints: ["'Médico' es metge."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Vocabulari mèdic.`
     },
 {
       id: "b1-med-11",
@@ -385,11 +385,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Síntoma 11`,
-      expectedAnswer: "Em fa mal.",
-      hints: [],
+      promptText: `Traduce: "Tensión alta."`,
+      expectedAnswer: "Tensió alta.",
+      hints: ["'Médico' es metge."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Vocabulari mèdic.`
     },
 {
       id: "b1-med-12",
@@ -397,11 +397,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Síntoma 12`,
-      expectedAnswer: "Em fa mal.",
-      hints: [],
+      promptText: `Traduce: "Mareos."`,
+      expectedAnswer: "Marejos.",
+      hints: ["'Médico' es metge."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Vocabulari mèdic.`
     },
 {
       id: "b1-med-13",
@@ -409,11 +409,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Síntoma 13`,
-      expectedAnswer: "Em fa mal.",
-      hints: [],
+      promptText: `Traduce: "Jarabe para la tos."`,
+      expectedAnswer: "Xarop per a la tos.",
+      hints: ["'Médico' es metge."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Vocabulari mèdic.`
     },
 {
       id: "b1-med-14",
@@ -421,11 +421,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Síntoma 14`,
-      expectedAnswer: "Em fa mal.",
-      hints: [],
+      promptText: `Traduce: "Cita previa."`,
+      expectedAnswer: "Cita prèvia.",
+      hints: ["'Médico' es metge."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Vocabulari mèdic.`
     },
 {
       id: "b1-med-15",
@@ -433,11 +433,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Síntoma 15`,
-      expectedAnswer: "Em fa mal.",
-      hints: [],
+      promptText: `Traduce: "Centro de salud."`,
+      expectedAnswer: "Centre d'atenció primària.",
+      hints: ["'Médico' es metge."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Vocabulari mèdic.`
     },
 {
       id: "b1-med-16",
@@ -445,11 +445,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Síntoma 16`,
-      expectedAnswer: "Em fa mal.",
-      hints: [],
+      promptText: `Traduce: "Análisis de sangre."`,
+      expectedAnswer: "Anàlisi de sang.",
+      hints: ["'Médico' es metge."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Vocabulari mèdic.`
     },
 {
       id: "b1-med-17",
@@ -457,11 +457,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Síntoma 17`,
-      expectedAnswer: "Em fa mal.",
-      hints: [],
+      promptText: `Traduce: "Efectos secundarios."`,
+      expectedAnswer: "Efectes secundaris.",
+      hints: ["'Médico' es metge."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Vocabulari mèdic.`
     },
 {
       id: "b1-med-18",
@@ -469,11 +469,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Síntoma 18`,
-      expectedAnswer: "Em fa mal.",
-      hints: [],
+      promptText: `Traduce: "Estoy embarazada."`,
+      expectedAnswer: "Estic embarassada.",
+      hints: ["'Médico' es metge."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Vocabulari mèdic.`
     },
 {
       id: "b1-med-19",
@@ -481,11 +481,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Síntoma 19`,
-      expectedAnswer: "Em fa mal.",
-      hints: [],
+      promptText: `Traduce: "Alergia al polen."`,
+      expectedAnswer: "Al·lèrgia al pol·len.",
+      hints: ["'Médico' es metge."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Vocabulari mèdic.`
     },
 {
       id: "b1-med-20",
@@ -493,11 +493,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Síntoma 20`,
-      expectedAnswer: "Em fa mal.",
-      hints: [],
+      promptText: `Traduce: "Reposo en cama."`,
+      expectedAnswer: "Repòs al llit.",
+      hints: ["'Médico' es metge."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Vocabulari mèdic.`
     }
       ]
     },
@@ -505,7 +505,7 @@ export const tierB1: Tier = {
       id: "b1-restaurant",
       title: "Al Restaurant: Falsos Amics",
       description: "Restaurant vocabulary and false friends.",
-      icon: "🍽️",
+      icon: "Utensils",
       scenarios: [
         {
       id: "b1-rest-01",
@@ -513,11 +513,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Plato 1`,
-      expectedAnswer: "El plat.",
-      hints: [],
+      promptText: `Traduce: "Para aliñar la ensalada."`,
+      expectedAnswer: "Per amanir l'amanida.",
+      hints: ["Cuidado con ampolla y mongetes."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Falsos amigos en el restaurante.`
     },
 {
       id: "b1-rest-02",
@@ -525,11 +525,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Plato 2`,
-      expectedAnswer: "El plat.",
-      hints: [],
+      promptText: `Traduce: "Judías verdes."`,
+      expectedAnswer: "Mongetes tendres.",
+      hints: ["Cuidado con ampolla y mongetes."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Falsos amigos en el restaurante.`
     },
 {
       id: "b1-rest-03",
@@ -537,11 +537,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Plato 3`,
-      expectedAnswer: "El plat.",
-      hints: [],
+      promptText: `Traduce: "Quiero una botella."`,
+      expectedAnswer: "Vull una ampolla.",
+      hints: ["Cuidado con ampolla y mongetes."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Falsos amigos en el restaurante.`
     },
 {
       id: "b1-rest-04",
@@ -549,11 +549,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Plato 4`,
-      expectedAnswer: "El plat.",
-      hints: [],
+      promptText: `Traduce: "Tráigame la cuenta."`,
+      expectedAnswer: "Porti'm el compte.",
+      hints: ["Cuidado con ampolla y mongetes."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Falsos amigos en el restaurante.`
     },
 {
       id: "b1-rest-05",
@@ -561,11 +561,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Plato 5`,
-      expectedAnswer: "El plat.",
-      hints: [],
+      promptText: `Traduce: "De primero, sopa."`,
+      expectedAnswer: "De primer, sopa.",
+      hints: ["Cuidado con ampolla y mongetes."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Falsos amigos en el restaurante.`
     },
 {
       id: "b1-rest-06",
@@ -573,11 +573,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Plato 6`,
-      expectedAnswer: "El plat.",
-      hints: [],
+      promptText: `Traduce: "Postres."`,
+      expectedAnswer: "Postres.",
+      hints: ["Cuidado con ampolla y mongetes."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Falsos amigos en el restaurante.`
     },
 {
       id: "b1-rest-07",
@@ -585,11 +585,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Plato 7`,
-      expectedAnswer: "El plat.",
-      hints: [],
+      promptText: `Traduce: "Un vaso de agua."`,
+      expectedAnswer: "Un got d'aigua.",
+      hints: ["Cuidado con ampolla y mongetes."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Falsos amigos en el restaurante.`
     },
 {
       id: "b1-rest-08",
@@ -597,11 +597,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Plato 8`,
-      expectedAnswer: "El plat.",
-      hints: [],
+      promptText: `Traduce: "Tenedor y cuchillo."`,
+      expectedAnswer: "Forquilla i ganivet.",
+      hints: ["Cuidado con ampolla y mongetes."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Falsos amigos en el restaurante.`
     },
 {
       id: "b1-rest-09",
@@ -609,11 +609,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Plato 9`,
-      expectedAnswer: "El plat.",
-      hints: [],
+      promptText: `Traduce: "La cuchara."`,
+      expectedAnswer: "La cullera.",
+      hints: ["Cuidado con ampolla y mongetes."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Falsos amigos en el restaurante.`
     },
 {
       id: "b1-rest-10",
@@ -621,11 +621,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Plato 10`,
-      expectedAnswer: "El plat.",
-      hints: [],
+      promptText: `Traduce: "Servilleta."`,
+      expectedAnswer: "Tovalló.",
+      hints: ["Cuidado con ampolla y mongetes."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Falsos amigos en el restaurante.`
     },
 {
       id: "b1-rest-11",
@@ -633,11 +633,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Plato 11`,
-      expectedAnswer: "El plat.",
-      hints: [],
+      promptText: `Traduce: "Plato principal."`,
+      expectedAnswer: "Plat principal.",
+      hints: ["Cuidado con ampolla y mongetes."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Falsos amigos en el restaurante.`
     },
 {
       id: "b1-rest-12",
@@ -645,11 +645,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Plato 12`,
-      expectedAnswer: "El plat.",
-      hints: [],
+      promptText: `Traduce: "Poco hecho."`,
+      expectedAnswer: "Poc fet.",
+      hints: ["Cuidado con ampolla y mongetes."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Falsos amigos en el restaurante.`
     },
 {
       id: "b1-rest-13",
@@ -657,11 +657,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Plato 13`,
-      expectedAnswer: "El plat.",
-      hints: [],
+      promptText: `Traduce: "Muy hecho."`,
+      expectedAnswer: "Molt fet.",
+      hints: ["Cuidado con ampolla y mongetes."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Falsos amigos en el restaurante.`
     },
 {
       id: "b1-rest-14",
@@ -669,11 +669,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Plato 14`,
-      expectedAnswer: "El plat.",
-      hints: [],
+      promptText: `Traduce: "El camarero."`,
+      expectedAnswer: "El cambrer.",
+      hints: ["Cuidado con ampolla y mongetes."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Falsos amigos en el restaurante.`
     },
 {
       id: "b1-rest-15",
@@ -681,11 +681,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Plato 15`,
-      expectedAnswer: "El plat.",
-      hints: [],
+      promptText: `Traduce: "Mesa para dos."`,
+      expectedAnswer: "Taula per a dos.",
+      hints: ["Cuidado con ampolla y mongetes."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Falsos amigos en el restaurante.`
     },
 {
       id: "b1-rest-16",
@@ -693,11 +693,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Plato 16`,
-      expectedAnswer: "El plat.",
-      hints: [],
+      promptText: `Traduce: "Vino tinto."`,
+      expectedAnswer: "Vi negre.",
+      hints: ["Cuidado con ampolla y mongetes."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Falsos amigos en el restaurante.`
     },
 {
       id: "b1-rest-17",
@@ -705,11 +705,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Plato 17`,
-      expectedAnswer: "El plat.",
-      hints: [],
+      promptText: `Traduce: "Cerveza de barril."`,
+      expectedAnswer: "Cervesa de barril.",
+      hints: ["Cuidado con ampolla y mongetes."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Falsos amigos en el restaurante.`
     },
 {
       id: "b1-rest-18",
@@ -717,11 +717,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Plato 18`,
-      expectedAnswer: "El plat.",
-      hints: [],
+      promptText: `Traduce: "Propina."`,
+      expectedAnswer: "Propina.",
+      hints: ["Cuidado con ampolla y mongetes."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Falsos amigos en el restaurante.`
     },
 {
       id: "b1-rest-19",
@@ -729,11 +729,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Plato 19`,
-      expectedAnswer: "El plat.",
-      hints: [],
+      promptText: `Traduce: "Aceite y sal."`,
+      expectedAnswer: "Oli i sal.",
+      hints: ["Cuidado con ampolla y mongetes."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Falsos amigos en el restaurante.`
     },
 {
       id: "b1-rest-20",
@@ -741,11 +741,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Plato 20`,
-      expectedAnswer: "El plat.",
-      hints: [],
+      promptText: `Traduce: "Está riquísimo."`,
+      expectedAnswer: "Està boníssim.",
+      hints: ["Cuidado con ampolla y mongetes."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Falsos amigos en el restaurante.`
     }
       ]
     },
@@ -753,7 +753,7 @@ export const tierB1: Tier = {
       id: "b1-emotions",
       title: "Emocions i Sentiments",
       description: "Expressing subjectivity and emotions.",
-      icon: "❤️",
+      icon: "Heart",
       scenarios: [
         {
       id: "b1-emo-01",
@@ -761,11 +761,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Emoción 1`,
-      expectedAnswer: "Estic feliç.",
-      hints: [],
+      promptText: `Traduce: "Estoy contento."`,
+      expectedAnswer: "Estic content.",
+      hints: ["Expresiones de emoción."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Emocions i sentiments.`
     },
 {
       id: "b1-emo-02",
@@ -773,11 +773,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Emoción 2`,
-      expectedAnswer: "Estic feliç.",
-      hints: [],
+      promptText: `Traduce: "Me da pena."`,
+      expectedAnswer: "Em fa pena.",
+      hints: ["Expresiones de emoción."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Emocions i sentiments.`
     },
 {
       id: "b1-emo-03",
@@ -785,11 +785,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Emoción 3`,
-      expectedAnswer: "Estic feliç.",
-      hints: [],
+      promptText: `Traduce: "Estoy triste."`,
+      expectedAnswer: "Estic trist.",
+      hints: ["Expresiones de emoción."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Emocions i sentiments.`
     },
 {
       id: "b1-emo-04",
@@ -797,11 +797,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Emoción 4`,
-      expectedAnswer: "Estic feliç.",
-      hints: [],
+      promptText: `Traduce: "Qué sorpresa."`,
+      expectedAnswer: "Quina sorpresa.",
+      hints: ["Expresiones de emoción."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Emocions i sentiments.`
     },
 {
       id: "b1-emo-05",
@@ -809,11 +809,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Emoción 5`,
-      expectedAnswer: "Estic feliç.",
-      hints: [],
+      promptText: `Traduce: "Estoy preocupado."`,
+      expectedAnswer: "Estic preocupat.",
+      hints: ["Expresiones de emoción."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Emocions i sentiments.`
     },
 {
       id: "b1-emo-06",
@@ -821,11 +821,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Emoción 6`,
-      expectedAnswer: "Estic feliç.",
-      hints: [],
+      promptText: `Traduce: "Me da asco."`,
+      expectedAnswer: "Em fa fàstic.",
+      hints: ["Expresiones de emoción."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Emocions i sentiments.`
     },
 {
       id: "b1-emo-07",
@@ -833,11 +833,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Emoción 7`,
-      expectedAnswer: "Estic feliç.",
-      hints: [],
+      promptText: `Traduce: "Siento mucho miedo."`,
+      expectedAnswer: "Sento molta por.",
+      hints: ["Expresiones de emoción."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Emocions i sentiments.`
     },
 {
       id: "b1-emo-08",
@@ -845,11 +845,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Emoción 8`,
-      expectedAnswer: "Estic feliç.",
-      hints: [],
+      promptText: `Traduce: "Estoy enfadado."`,
+      expectedAnswer: "Estic enfadat.",
+      hints: ["Expresiones de emoción."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Emocions i sentiments.`
     },
 {
       id: "b1-emo-09",
@@ -857,11 +857,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Emoción 9`,
-      expectedAnswer: "Estic feliç.",
-      hints: [],
+      promptText: `Traduce: "No me importa."`,
+      expectedAnswer: "No m'importa.",
+      hints: ["Expresiones de emoción."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Emocions i sentiments.`
     },
 {
       id: "b1-emo-10",
@@ -869,11 +869,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Emoción 10`,
-      expectedAnswer: "Estic feliç.",
-      hints: [],
+      promptText: `Traduce: "Me hace ilusión."`,
+      expectedAnswer: "Em fa il·lusió.",
+      hints: ["Expresiones de emoción."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Emocions i sentiments.`
     },
 {
       id: "b1-emo-11",
@@ -881,11 +881,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Emoción 11`,
-      expectedAnswer: "Estic feliç.",
-      hints: [],
+      promptText: `Traduce: "Estoy agotado."`,
+      expectedAnswer: "Estic esgotat.",
+      hints: ["Expresiones de emoción."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Emocions i sentiments.`
     },
 {
       id: "b1-emo-12",
@@ -893,11 +893,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Emoción 12`,
-      expectedAnswer: "Estic feliç.",
-      hints: [],
+      promptText: `Traduce: "Me aburro."`,
+      expectedAnswer: "M'avorreixo.",
+      hints: ["Expresiones de emoción."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Emocions i sentiments.`
     },
 {
       id: "b1-emo-13",
@@ -905,11 +905,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Emoción 13`,
-      expectedAnswer: "Estic feliç.",
-      hints: [],
+      promptText: `Traduce: "Estoy emocionado."`,
+      expectedAnswer: "Estic emocionat.",
+      hints: ["Expresiones de emoción."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Emocions i sentiments.`
     },
 {
       id: "b1-emo-14",
@@ -917,11 +917,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Emoción 14`,
-      expectedAnswer: "Estic feliç.",
-      hints: [],
+      promptText: `Traduce: "Es una lástima."`,
+      expectedAnswer: "És una llàstima.",
+      hints: ["Expresiones de emoción."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Emocions i sentiments.`
     },
 {
       id: "b1-emo-15",
@@ -929,11 +929,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Emoción 15`,
-      expectedAnswer: "Estic feliç.",
-      hints: [],
+      promptText: `Traduce: "Me duele en el alma."`,
+      expectedAnswer: "Em fa mal a l'ànima.",
+      hints: ["Expresiones de emoción."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Emocions i sentiments.`
     },
 {
       id: "b1-emo-16",
@@ -941,11 +941,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Emoción 16`,
-      expectedAnswer: "Estic feliç.",
-      hints: [],
+      promptText: `Traduce: "Estoy nervioso."`,
+      expectedAnswer: "Estic nerviós.",
+      hints: ["Expresiones de emoción."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Emocions i sentiments.`
     },
 {
       id: "b1-emo-17",
@@ -953,11 +953,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Emoción 17`,
-      expectedAnswer: "Estic feliç.",
-      hints: [],
+      promptText: `Traduce: "Siento orgullo."`,
+      expectedAnswer: "Sento orgull.",
+      hints: ["Expresiones de emoción."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Emocions i sentiments.`
     },
 {
       id: "b1-emo-18",
@@ -965,11 +965,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Emoción 18`,
-      expectedAnswer: "Estic feliç.",
-      hints: [],
+      promptText: `Traduce: "Me da vergüenza."`,
+      expectedAnswer: "Em fa vergonya.",
+      hints: ["Expresiones de emoción."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Emocions i sentiments.`
     },
 {
       id: "b1-emo-19",
@@ -977,11 +977,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Emoción 19`,
-      expectedAnswer: "Estic feliç.",
-      hints: [],
+      promptText: `Traduce: "Te echo de menos."`,
+      expectedAnswer: "Et trobo a faltar.",
+      hints: ["Expresiones de emoción."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Emocions i sentiments.`
     },
 {
       id: "b1-emo-20",
@@ -989,11 +989,11 @@ export const tierB1: Tier = {
       characterName: "System",
       characterDisplayName: "Profesor",
       characterRole: "Tutor",
-      promptText: `Emoción 20`,
-      expectedAnswer: "Estic feliç.",
-      hints: [],
+      promptText: `Traduce: "Estoy enamorado."`,
+      expectedAnswer: "Estic enamorat.",
+      hints: ["Expresiones de emoción."],
       xpReward: 20,
-      explanationNote: ``
+      explanationNote: `Emocions i sentiments.`
     }
       ]
     }

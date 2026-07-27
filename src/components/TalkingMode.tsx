@@ -9,6 +9,7 @@
 "use client";
 
 import { useState, useRef, useCallback } from "react";
+import DynamicIcon from "@/components/DynamicIcon";
 import { motion, AnimatePresence } from "framer-motion";
 import type { Scenario } from "@/data/curriculum";
 import { useTranslation } from "@/lib/i18n";
@@ -145,7 +146,7 @@ export default function TalkingMode({ scenario, onSubmit }: TalkingModeProps) {
         </div>
 
         <div className="unsupported-notice">
-          <span className="notice-icon">🎙️</span>
+          <span className="notice-icon"><DynamicIcon name="Mic" size={20} /></span>
           <p>
             {permissionDenied
               ? t("interaction.mic.denied")
@@ -254,7 +255,7 @@ export default function TalkingMode({ scenario, onSubmit }: TalkingModeProps) {
                 }}
               >
                 <span className="mic-icon">
-                  {isRecording ? "⏹" : "🎤"}
+                  {isRecording ? <DynamicIcon name="Square" size={24} /> : <DynamicIcon name="Mic" size={24} />}
                 </span>
               </motion.button>
             </div>
@@ -325,7 +326,7 @@ export default function TalkingMode({ scenario, onSubmit }: TalkingModeProps) {
                 rotate: { duration: 0.5 }
               }}
             >
-              {result?.correct ? "🎉" : "😕"}
+              {result?.correct ? <DynamicIcon name="PartyPopper" size={24} /> : <DynamicIcon name="Frown" size={24} />}
             </motion.span>
             <h3 className="result-title">
               {result?.correct ? t("result.excellent") : t("result.almost")}
@@ -359,7 +360,7 @@ export default function TalkingMode({ scenario, onSubmit }: TalkingModeProps) {
 
           {scenario.explanationNote && (
             <div className="explanation-note">
-              <span className="note-icon">📚</span>
+              <span className="note-icon"><DynamicIcon name="BookOpen" size={16} /></span>
               <p>{scenario.explanationNote}</p>
             </div>
           )}
